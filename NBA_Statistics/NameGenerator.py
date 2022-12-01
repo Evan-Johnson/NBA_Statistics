@@ -14,7 +14,7 @@ def Update_Name_URLs():
     name_urls = {} #used for final printing
     
     #get team names via TeamReference.csv
-    with open('C:/Users/johns/OneDrive/Documents/NBA_Statistics/NBA_Statistics/TeamReference.csv', newline = '') as team_file:
+    with open('NBA_Statistics/TeamReference.csv', newline = '') as team_file:
         
         reader = csv.reader(team_file)
         
@@ -55,7 +55,7 @@ def Update_Name_URLs():
     player_reference_clear = open('PlayerReference.json', 'w')
     player_reference_clear.close()
     
-    with open('PlayerReference.json', 'w', encoding='utf8') as player_file:
+    with open('NBA_Statistics/PlayerReference.json', 'w', encoding='utf8') as player_file:
         
         #I used dumps instead of dump to ensure ASCII characters
         player_string = json.dumps(name_urls, ensure_ascii = False)
