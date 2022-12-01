@@ -14,7 +14,7 @@ def Update_Name_URLs():
     name_urls = {} #used for final printing
     
     #get team names via TeamReference.csv
-    with open('TeamReference.csv', newline = '') as team_file:
+    with open('C:/Users/johns/OneDrive/Documents/NBA_Statistics/NBA_Statistics/TeamReference.csv', newline = '') as team_file:
         
         reader = csv.reader(team_file)
         
@@ -26,7 +26,7 @@ def Update_Name_URLs():
         
         print(team)
         
-        url = 'https://www.basketball-reference.com/teams/' + team + '/2021.html'
+        url = 'https://www.basketball-reference.com/teams/' + team + '/2023.html'
         
         #see documentation in Scraper_Master.py
         #basically team_soup = beautifulsoup object from url above

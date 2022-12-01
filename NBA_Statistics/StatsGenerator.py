@@ -24,7 +24,7 @@ def Update_Player_Statistics(year):
     urls = []
     
     for key in player_reference:
-        urls.append("https://www.basketball-reference.com/" + player_reference[key] + "/gamelog/" + str(year) + "/")
+        urls.append("https://www.basketball-reference.com" + player_reference[key] + "/gamelog/" + str(year) + "/")
     
     columns = ["Date", "Team", "Opponent", "Home(0)/Away(1)", "Margin", "Minutes", "FGA", "FGM", \
                "3PA", "3PM", "FT", "FTA","ORB","TRB", "Assists", "Steals", "Blocks", "Turnovers", "Fouls", "Points", "p/m"]
@@ -116,5 +116,5 @@ def write_csv(name, columns, player_stats):
         
 
 
-Update_Player_Statistics(2021)
+Update_Player_Statistics(2023)
 
