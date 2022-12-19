@@ -15,34 +15,26 @@ def Update_Player_Statistics(year):
     
     
     
-    with open('PlayerReference.json', 'r', encoding='utf8') as Player_Reference:
+    with open('NBA_Statistics/SunsReference.json', 'r', encoding='utf8') as Player_Reference:
         player_reference = json.load(Player_Reference)
-    #with open('SunsReference.json', 'r', encoding='utf8') as Player_Reference:
+    #with open('NBA_Statistics/PlayerReference.json', 'r', encoding='utf8') as Player_Reference:
         #player_reference = json.load(Player_Reference)
 
     
     urls = []
     
     for key in player_reference:
-        urls.append("https://www.basketball-reference.com" + player_reference[key] + "/gamelog/" + str(year) + "/")
-    
-    columns = ["Date", "Team", "Opponent", "Home(0)/Away(1)", "Margin", "Minutes", "FGA", "FGM", \
+        url = "https://www.basketball-reference.com" + player_reference[key] + "/gamelog/" + str(year) + "/"
+
+        columns = ["Date", "Team", "Opponent", "Home(0)/Away(1)", "Margin", "Minutes", "FGA", "FGM", \
                "3PA", "3PM", "FT", "FTA","ORB","TRB", "Assists", "Steals", "Blocks", "Turnovers", "Fouls", "Points", "p/m"]
     
-    soup_columns = ["date_game", "team_id", "opp_id", "game_location", "game_result", "mp", "fga", "fg", \
+        soup_columns = ["date_game", "team_id", "opp_id", "game_location", "game_result", "mp", "fga", "fg", \
                     "fg3a", "fg3", "ft", "fta","orb", "trb", "ast", "stl", "blk", "tov", "pf", "pts", "plus_minus"]
-    
-    for url in urls:
     
         player_soup = Scraper_Master.Scrape_From_Source(url)
         
-        try:
-            player_name = player_soup.find(name = "h1", attrs = {"itemprop" : "name"}).text.split(" 20")[0][1:]
-            #annoying bit
-            player_name = player_name.split(" ")[0] + " " + player_name.split(" ")[1]
-        except:
-            print("Ignus says hi")
-            continue
+        player_name = key
         
         player_data_all = []
         
@@ -104,9 +96,8 @@ def Update_Player_Statistics(year):
         
         
 def write_csv(name, columns, player_stats):
-    with open('player_data/'+ name + '.csv', 'w', newline='') as csvfile:
+    with open('NBA_Statistics/player_data/'+ name + '.csv', 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames = columns)
-        #rint(player_stats.keys())
         writer.writeheader()
     
         for games in player_stats[name]:
