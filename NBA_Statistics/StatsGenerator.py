@@ -15,10 +15,10 @@ def Update_Player_Statistics(year):
     
     
     
-    with open('NBA_Statistics/SunsReference.json', 'r', encoding='utf8') as Player_Reference:
-        player_reference = json.load(Player_Reference)
-    #with open('NBA_Statistics/PlayerReference.json', 'r', encoding='utf8') as Player_Reference:
+    #with open('NBA_Statistics/SunsReference.json', 'r', encoding='utf8') as Player_Reference:
         #player_reference = json.load(Player_Reference)
+    with open('NBA_Statistics/PlayerReference.json', 'r', encoding='utf8') as Player_Reference:
+        player_reference = json.load(Player_Reference)
 
     
     urls = []
@@ -107,5 +107,5 @@ def write_csv(name, columns, player_stats):
         
 
 
-Update_Player_Statistics(2023)
+Update_Player_Statistics(2024)
 

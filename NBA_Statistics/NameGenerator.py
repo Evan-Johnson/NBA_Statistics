@@ -26,7 +26,7 @@ def Update_Name_URLs():
         
         print(team)
         
-        url = 'https://www.basketball-reference.com/teams/' + team + '/2023.html'
+        url = 'https://www.basketball-reference.com/teams/' + team + '/2024.html'
         
         #see documentation in Scraper_Master.py
         #basically team_soup = beautifulsoup object from url above
