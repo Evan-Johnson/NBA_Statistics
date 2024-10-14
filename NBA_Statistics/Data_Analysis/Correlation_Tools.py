@@ -52,6 +52,9 @@ def categoryToWin_PlayerCorrelation(playerName, C, N, over=True, win=True, based
         return totalWins_withParams/totalWins
     else:
         return totalWins_withParams/totalPlayed
+
+#if devin booker averages 25 points per game over the reagular season how likely are they to make the playoffs?
+
     
 
-print(categoryToWin_PlayerCorrelation("Devin Booker", "Points", 40))
+print(categoryToWin_PlayerCorrelation("Devin Booker", "Points", 25))

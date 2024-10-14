@@ -2,6 +2,7 @@
 
 import Analysis_Tools as at
 import pandas as pd
+import matplotlib.pyplot as plt
 
 #types of charts - taken from pd docs
 #represents type_of_chart parameter
@@ -36,4 +37,8 @@ def plotSingleAxisTotal(Y, numNames = 10, head = True, sizeX = 10, sizeY = 10, t
     dataframe = at.getAllPlayerTotalDataFrame().sort_values(Y, ascending = not head).head(numNames)
     dataframe.plot(x = "Name", y = Y, figsize = (sizeX, sizeY), kind = type_of_chart)
 
+
 plotSingleAxisTotal("Points")
+plt.show()
+plotSingleAxisAverage("Points")
+plt.show()

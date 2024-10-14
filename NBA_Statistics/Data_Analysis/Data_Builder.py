@@ -7,7 +7,7 @@ def buildAllPlayerAverage(digits_to_round = 2):
     path = "NBA_Statistics/allPlayerAverage.csv"
     
     #taken from StatsGenerator (does not include non-numeric columns)
-    columns = ["Name", "Margin", "Minutes", "FGA", "FGM", "3PA", "3PM", "Rebounds", "Assists", "Steals", "Blocks", "Turnovers", "Fouls", "Points"]
+    columns = ["Name", "Margin", "Minutes", "FGA", "FGM", "3PA", "3PM", "ORB", "TRB", "Assists", "Steals", "Blocks", "Turnovers", "Fouls", "Points"]
     
     playerNames = at.getPlayerNames()
     
@@ -40,7 +40,7 @@ def buildAllPlayerTotal(digits_to_round = 2):
     path = "NBA_Statistics/allPlayerTotal.csv"
     
     #taken from StatsGenerator (does not include non-numeric columns)
-    columns = ["Name", "Margin", "Minutes", "FGA", "FGM", "3PA", "3PM", "Rebounds", "Assists", "Steals", "Blocks", "Turnovers", "Fouls", "Points"]
+    columns = ["Name", "Margin", "Minutes", "FGA", "FGM", "3PA", "3PM", "ORB", "TRB", "Assists", "Steals", "Blocks", "Turnovers", "Fouls", "Points"]
     
     playerNames = at.getPlayerNames()
     
@@ -94,3 +94,5 @@ def replaceAllInPlayerData(subject, target):
         fout.write(new_file_content)
         fout.close()
 
+buildAllPlayerAverage()
+buildAllPlayerTotal()

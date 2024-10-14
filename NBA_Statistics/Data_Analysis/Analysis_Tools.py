@@ -141,7 +141,13 @@ def getTopTenTotal(category_name, num_players, bottom):
         return df_total
     except:
         raise Exception('Could not find category: "' + category_name + '"')
-       
-print(getTopTenAverage("Points", 15, False))
-print(getTopTenTotal("Points", 15, False))
-print(getTopTenAverage("Margin", 5, False))
+    
+
+print(getPlayerAverage("Luka Dončić", "Points"))
+print(getPlayerTotal("Luka Dončić", "Points"))
+print(getPlayerMin("Luka Dončić", "Points"))
+print(getPlayerWins("Luka Dončić"))
+
+#print(getTopTenAverage("Points", 15, False))
+#print(getTopTenTotal("Points", 15, False))
+#print(getTopTenAverage("Margin", 5, False))
