@@ -6,7 +6,7 @@ import csv
 #returns data frame for particular player
 def getPlayerDataFrame(player_name):
     name = player_name + ".csv"
-    path = "../player_data//" + name
+    path = "NBA_Statistics/player_data//" + name
     file = open(path, 'r', encoding='utf-8')
     try:
         return pd.read_csv(file)
@@ -15,7 +15,7 @@ def getPlayerDataFrame(player_name):
 
 #returns the data frame for the allPlayerAverage
 def getAllPlayerAverageDataFrame():
-    path = "../allPlayerAverage.csv"
+    path = "NBA_Statistics/allPlayerAverage.csv"
     file = open(path, 'r', encoding='utf-8')
     try:
         return pd.read_csv(file)
@@ -23,7 +23,7 @@ def getAllPlayerAverageDataFrame():
         raise Exception('Could not find: ' + path + ", consider running buildAllPlayerAverage in Analysis_Tools.py")
 
 def getAllPlayerTotalDataFrame():
-    path = "../allPlayerTotal.csv"
+    path = "NBA_Statistics/allPlayerTotal.csv"
     file = open(path, 'r', encoding='utf-8')
     try:
         return pd.read_csv(file)
@@ -38,7 +38,7 @@ def getPlayerNames(team = "ALL"): #TO-DO
     
     if(team == "ALL"):
         
-        path = "../PlayerReference.json"
+        path = "NBA_Statistics/PlayerReference.json"
         
         with open(path, encoding='utf8') as PlayerReference:    
             playerNames_json = json.load(PlayerReference)
@@ -145,14 +145,3 @@ def getTopTenTotal(category_name, num_players, bottom):
 print(getTopTenAverage("Points", 15, False))
 print(getTopTenTotal("Points", 15, False))
 print(getTopTenAverage("Margin", 5, False))
-
-
-    
-
-            
-            
-            
-
-        
-    
-    

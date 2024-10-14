@@ -4,7 +4,7 @@ import csv
 
 #Builds/Updates allPlayerAverage.csv
 def buildAllPlayerAverage(digits_to_round = 2):
-    path = "../allPlayerAverage.csv"
+    path = "NBA_Statistics/allPlayerAverage.csv"
     
     #taken from StatsGenerator (does not include non-numeric columns)
     columns = ["Name", "Margin", "Minutes", "FGA", "FGM", "3PA", "3PM", "Rebounds", "Assists", "Steals", "Blocks", "Turnovers", "Fouls", "Points"]
@@ -37,7 +37,7 @@ def buildAllPlayerAverage(digits_to_round = 2):
 
 #Builds/Updates allPlayerTotal.csv
 def buildAllPlayerTotal(digits_to_round = 2):
-    path = "../allPlayerTotal.csv"
+    path = "NBA_Statistics/allPlayerTotal.csv"
     
     #taken from StatsGenerator (does not include non-numeric columns)
     columns = ["Name", "Margin", "Minutes", "FGA", "FGM", "3PA", "3PM", "Rebounds", "Assists", "Steals", "Blocks", "Turnovers", "Fouls", "Points"]
@@ -73,7 +73,7 @@ def replaceAllInPlayerData(subject, target):
     names = at.getPlayerNames()
     
     for name in names:
-        path = "../player_data/" + name + ".csv"
+        path = "NBA_Statistics/player_data/" + name + ".csv"
         
         new_file_content = ""
         
