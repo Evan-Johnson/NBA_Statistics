@@ -19,7 +19,9 @@ def Get_Daily_Teams():
     team_soup = Scraper_Master.Scrape_From_Source(url)
 
     team_rows = team_soup.find(name = "div", attrs = {"id": "content"}).findAll(name = "tr", class_=lambda x: x and any(c in x.split() for c in ["winner", "loser"]))
-    #print(team_rows)
+    #team_rows = team_soup.find(name = "div", attrs = {"id": "content"}).findAll(name = "tr")
+    
+    print(team_rows)
     for row in team_rows:
         team = str(row.contents[1].contents[0])
         #<a href="/teams/NYK/2025.html">New York</a>
