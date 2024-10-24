@@ -12,7 +12,7 @@ def Get_Daily_Teams():
     
     team_reference = []
     #test url with two games... 4 teams
-    url = "https://www.basketball-reference.com/boxscores/?month=10&day=22&year=2024"
+    url = "https://www.basketball-reference.com/boxscores/?month=10&day=23&year=2024"
     #real url going forward will be this:
     #url = "https://www.basketball-reference.com/boxscores/index.fcgi?month=" + str(date.today().month) + "&day=" + str(date.today().day) + "&year=" + str(date.today().year)
     print(url)
