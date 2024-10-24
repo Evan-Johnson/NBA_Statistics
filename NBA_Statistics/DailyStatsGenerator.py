@@ -38,7 +38,11 @@ def Update_Player_Statistics(year):
         
         player_data_all = []
         
-        player_data_rows = player_soup.find(name="div", attrs = {"id": "all_pgl_basic"}).findAll(name="tr")
+        try:
+            player_data_rows = player_soup.find(name="div", attrs = {"id": "all_pgl_basic"}).findAll(name="tr")
+        except AttributeError as e:
+            print(player_name + " has no games found")
+            continue
         
         for row in player_data_rows:
             
