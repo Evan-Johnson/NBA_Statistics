@@ -12,14 +12,13 @@ def Get_Daily_Teams():
     
     team_reference = []
     #test url with two games... 4 teams
-    url = "https://www.basketball-reference.com/boxscores/?month=10&day=23&year=2024"
-    #real url going forward will be this:
-    #url = "https://www.basketball-reference.com/boxscores/index.fcgi?month=" + str(date.today().month) + "&day=" + str(date.today().day) + "&year=" + str(date.today().year)
+    #url = "https://www.basketball-reference.com/boxscores/?month=10&day=23&year=2024"
+    #real url going forward will be this (games that happened yesterday):
+    url = "https://www.basketball-reference.com/boxscores/index.fcgi?month=" + str(date.today().month) + "&day=" + str(date.today().day - 1) + "&year=" + str(date.today().year)
     print(url)
     team_soup = Scraper_Master.Scrape_From_Source(url)
 
     team_rows = team_soup.find(name = "div", attrs = {"id": "content"}).findAll(name = "tr", class_=lambda x: x and any(c in x.split() for c in ["winner", "loser"]))
-    #team_rows = team_soup.find(name = "div", attrs = {"id": "content"}).findAll(name = "tr")
     
     print(team_rows)
     for row in team_rows:

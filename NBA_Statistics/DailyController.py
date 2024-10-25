@@ -3,4 +3,13 @@ import DailyNameGenerator as dng
 import DailyStatsGenerator as dsg
 from datetime import date
 
-#taking a break since I hit the request limit on basketball reference for the day
+#Hoping this can just be ran instead of running each file one by one
+def Daily_Running():
+    ds.Get_Daily_Teams()
+    print("Daily teams were received and saved.")
+    dng.Update_Name_URLs()
+    print("Player reference was updated.")
+    dsg.Update_Player_Statistics()
+    print("Player statistics have been updated for " + date.today())
+
+Daily_Running()

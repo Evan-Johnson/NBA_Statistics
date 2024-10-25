@@ -14,9 +14,6 @@ def Update_Player_Statistics(year):
     player_reference = {}
     
     
-    
-    #with open('NBA_Statistics/SunsReference.json', 'r', encoding='utf8') as Player_Reference:
-        #player_reference = json.load(Player_Reference)
     with open('NBA_Statistics/NBA_Statistics/DailyPlayerReference.json', 'r', encoding='utf8') as Player_Reference:
         player_reference = json.load(Player_Reference)
 
