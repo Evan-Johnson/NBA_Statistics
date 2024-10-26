@@ -9,7 +9,7 @@ def Daily_Running():
     print("Daily teams were received and saved.")
     dng.Update_Name_URLs()
     print("Player reference was updated.")
-    dsg.Update_Player_Statistics()
-    print("Player statistics have been updated for " + date.today())
+    dsg.Update_Player_Statistics(2025)
+    print("Player statistics have been updated for " + str(date.today()))
 
 Daily_Running()
