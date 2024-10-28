@@ -19,6 +19,7 @@ def Update_Player_Statistics(year):
 
     
     urls = []
+    player_limit = 0
     
     for key in player_reference:
         url = "https://www.basketball-reference.com" + player_reference[key] + "/gamelog/" + str(year) + "/"
@@ -92,6 +93,11 @@ def Update_Player_Statistics(year):
         write_csv(player_name, columns, player_stats)
         
         print(player_name + " Complete")
+        player_limit += 1
+        if (player_limit > 30):
+            print("Taking a long break...")
+            time.sleep(100)
+            player_limit = 0
         
         time.sleep(1)
         
