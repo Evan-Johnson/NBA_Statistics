@@ -96,10 +96,10 @@ def Update_Player_Statistics(year):
         player_limit += 1
         if (player_limit > 30):
             print("Taking a long break...")
-            time.sleep(100)
+            time.sleep(30)
             player_limit = 0
         
-        time.sleep(1)
+        time.sleep(5.5)
         
         
 def write_csv(name, columns, player_stats):
