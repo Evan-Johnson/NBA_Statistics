@@ -12,4 +12,7 @@ def Daily_Running():
     dsg.Update_Player_Statistics(2025)
     print("Player statistics have been updated for " + str(date.today()))
 
+    #wondering if this helps it not run twice...
+    exit()
+
 Daily_Running()
