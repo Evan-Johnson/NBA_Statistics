@@ -63,7 +63,7 @@ def plotSinglePlayerThreeStats(player_name, category_name1, category_name2, cate
     ax.set_xlabel("Games")
     ax.set_ylabel("Stats")
     ax.legend()
-    plt.savefig('NBA_Statistics/Data_Analysis/Plots/Jokić_Stats.png')
+    plt.savefig('NBA_Statistics/NBA_Statistics/Data_Analysis/Plots/KDStats.png')
     plt.show()
 
 
@@ -75,4 +75,6 @@ def plotSinglePlayerThreeStats(player_name, category_name1, category_name2, cate
 #plotSinglePlayerThreeStats("Devin Booker", "Points", "Assists", "TRB")
 #plt.savefig('Plots/BookStats.png')
 
-plotSinglePlayerThreeStats("Nikola Jokić", "Points", "Assists", "TRB")
+#plotSinglePlayerThreeStats("Nikola Jokić", "Points", "Assists", "TRB")
+plotSinglePlayerThreeStats("Kevin Durant", "Points", "Assists", "TRB")
+#plt.savefig('Plots/KDStats.png')

@@ -141,6 +141,6 @@ def getTopTenTotal(category_name, num_players, bottom):
 #print(getPlayerMin("Luka Dončić", "Points"))
 #rint(getPlayerWins("Luka Dončić"))
 
-#print(getTopTenAverage("Points", 15, False))
-#print(getTopTenTotal("Points", 15, False))
+print(getTopTenAverage("Points", 15, False))
+print(getTopTenTotal("Points", 15, False))
 #print(getTopTenAverage("Margin", 5, False))
