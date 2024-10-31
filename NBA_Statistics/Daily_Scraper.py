@@ -37,4 +37,4 @@ def Get_Daily_Teams():
 
         csvfile.close()
 
-Get_Daily_Teams()
+#Get_Daily_Teams()
