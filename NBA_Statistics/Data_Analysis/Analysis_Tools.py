@@ -2,11 +2,12 @@ import pandas as pd
 import numpy as np
 import json
 import csv
+import os
 
 #returns data frame for particular player
 def getPlayerDataFrame(player_name):
     name = player_name + ".csv"
-    path = "NBA_Statistics/player_data//" + name
+    path = "NBA_Statistics/NBA_Statistics/2025_player_data/" + name
     file = open(path, 'r', encoding='utf-8')
     try:
         return pd.read_csv(file)
@@ -15,7 +16,7 @@ def getPlayerDataFrame(player_name):
 
 #returns the data frame for the allPlayerAverage
 def getAllPlayerAverageDataFrame():
-    path = "NBA_Statistics/allPlayerAverage.csv"
+    path = "NBA_Statistics/NBA_Statistics/allPlayerAverage.csv"
     file = open(path, 'r', encoding='utf-8')
     try:
         return pd.read_csv(file)
@@ -23,26 +24,19 @@ def getAllPlayerAverageDataFrame():
         raise Exception('Could not find: ' + path + ", consider running buildAllPlayerAverage in Analysis_Tools.py")
 
 def getAllPlayerTotalDataFrame():
-    path = "NBA_Statistics/allPlayerTotal.csv"
+    path = "NBA_Statistics/NBA_Statistics/allPlayerTotal.csv"
     file = open(path, 'r', encoding='utf-8')
     try:
         return pd.read_csv(file)
     except:
         raise Exception('Could not find: ' + path + ", consider running buildAllPlayerAverage in Analysis_Tools.py")
 
-#ALL = all player names
-#PHO = all players on the Phoenix Suns
-#Returns array of all player names in the Player_Data json
-def getPlayerNames(team = "ALL"): #TO-DO
-    playerNames = []
-    
-    if(team == "ALL"):
-        
-        path = "NBA_Statistics/PlayerReference.json"
-        
-        with open(path, encoding='utf8') as PlayerReference:    
-            playerNames_json = json.load(PlayerReference)
-            playerNames = playerNames_json.keys()
+#Returns array of all player names in the 2025_Player_Data directory
+def getPlayerNames():
+    # Get the list of all files 
+    path = "/Users/evanjohnson/Documents/nba/NBA_Statistics/NBA_Statistics/2025_player_data"
+    dir_list = os.listdir(path)
+    playerNames = [item[:-4] for item in dir_list]
     
     return playerNames
 
@@ -141,13 +135,12 @@ def getTopTenTotal(category_name, num_players, bottom):
         return df_total
     except:
         raise Exception('Could not find category: "' + category_name + '"')
-    
 
-print(getPlayerAverage("Luka Dončić", "Points"))
-print(getPlayerTotal("Luka Dončić", "Points"))
-print(getPlayerMin("Luka Dončić", "Points"))
-print(getPlayerWins("Luka Dončić"))
+#print(getPlayerAverage("Luka Dončić", "Points"))
+#print(getPlayerTotal("Luka Dončić", "Points"))
+#print(getPlayerMin("Luka Dončić", "Points"))
+#rint(getPlayerWins("Luka Dončić"))
 
-print(getTopTenAverage("Points", 15, False))
+#print(getTopTenAverage("Points", 15, False))
 #print(getTopTenTotal("Points", 15, False))
 #print(getTopTenAverage("Margin", 5, False))

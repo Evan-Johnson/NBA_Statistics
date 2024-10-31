@@ -96,7 +96,7 @@ def Update_Player_Statistics(year):
         
         
 def write_csv(name, columns, player_stats):
-    with open('NBA_Statistics/player_data/'+ name + '.csv', 'w', newline='') as csvfile:
+    with open('NBA_Statistics/NBA_Statistics/2025_player_data/'+ name + '.csv', 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames = columns)
         writer.writeheader()
     
