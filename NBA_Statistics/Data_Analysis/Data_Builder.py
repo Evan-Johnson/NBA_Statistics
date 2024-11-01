@@ -94,5 +94,5 @@ def replaceAllInPlayerData(subject, target):
         fout.write(new_file_content)
         fout.close()
 
-buildAllPlayerAverage()
-buildAllPlayerTotal()
+#buildAllPlayerAverage()
+#buildAllPlayerTotal()
