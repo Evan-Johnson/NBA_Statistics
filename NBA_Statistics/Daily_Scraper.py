@@ -1,6 +1,6 @@
 import json
 import time
-from datetime import date
+from datetime import date, timedelta
 
 import Scraper_Master
 
@@ -14,13 +14,17 @@ def Get_Daily_Teams():
     #test url with two games... 4 teams
     #url = "https://www.basketball-reference.com/boxscores/?month=10&day=23&year=2024"
     #real url going forward will be this (games that happened yesterday):
-    url = "https://www.basketball-reference.com/boxscores/index.fcgi?month=" + str(date.today().month) + "&day=" + str(date.today().day - 1) + "&year=" + str(date.today().year)
+    today = date.today()
+    yesterday = today - timedelta(days=1)
+    print("Yesterday was: " + str(yesterday))
+    url = "https://www.basketball-reference.com/boxscores/index.fcgi?month=" + str(yesterday.month) + "&day=" + str(yesterday.day) + "&year=" + str(yesterday.year)
     
+    print(url)
     team_soup = Scraper_Master.Scrape_From_Source(url)
 
     team_rows = team_soup.find(name = "div", attrs = {"id": "content"}).findAll(name = "tr", class_=lambda x: x and any(c in x.split() for c in ["winner", "loser"]))
     
-    print(team_rows)
+    #cleaning up the saved html to get the 3 letter team names
     for row in team_rows:
         team = str(row.contents[1].contents[0])
         #<a href="/teams/NYK/2025.html">New York</a>
@@ -37,4 +41,4 @@ def Get_Daily_Teams():
 
         csvfile.close()
 
-#Get_Daily_Teams()
+Get_Daily_Teams()

@@ -6,6 +6,7 @@
 import Scraper_Master
 import csv
 import json
+import time
 
 def Update_Name_URLs():
     
@@ -47,6 +48,8 @@ def Update_Name_URLs():
                 #add to dictionary
                 if(href not in name_urls.values()):
                     name_urls[name] = href
+        
+        time.sleep(5.5)
     
     #write file contents to json
     
@@ -68,6 +71,7 @@ def Update_Name_URLs():
         player_string = player_string.replace("}", "\n}")
         
         player_file.write(player_string)
+        player_file.close()
 
-Update_Name_URLs()
+#Update_Name_URLs()
         
