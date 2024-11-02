@@ -9,4 +9,4 @@ def PlotPlayer(name):
     pt.plotSinglePlayerThreeStats(name, "Points", "Assists", "TRB")
 
 #BuildAll()
-PlotPlayer("Ryan Dunn")
+PlotPlayer("Devin Booker")

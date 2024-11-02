@@ -20,6 +20,7 @@ def Update_Player_Statistics(year):
     
     urls = []
     player_limit = 0
+    print("Beginning player scraping...")
     
     for key in player_reference:
         url = "https://www.basketball-reference.com" + player_reference[key] + "/gamelog/" + str(year) + "/"
