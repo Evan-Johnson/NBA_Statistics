@@ -55,7 +55,7 @@ def Update_Player_Statistics(year):
             for column in soup_columns:
                 
                 #clean out header rows
-                if("Did Not Play" in row.text or "Inactive" in row.text or "Did Not Dress" in row.text or "Not With Team" in row.text):
+                if("Did Not Play" in row.text or "Inactive" in row.text or "Player Suspended" in row.text or "Did Not Dress" in row.text or "Not With Team" in row.text):
                     break    
                 try:
                     player_data_cell_text = row.find(name="td", attrs = {"data-stat" : column}).text
