@@ -15,7 +15,7 @@ def Get_Daily_Teams():
     #url = "https://www.basketball-reference.com/boxscores/?month=10&day=23&year=2024"
     #real url going forward will be this (games that happened yesterday):
     today = date.today()
-    yesterday = today - timedelta(days=1)
+    yesterday = today - timedelta(days=2)
     print("Yesterday was: " + str(yesterday))
     url = "https://www.basketball-reference.com/boxscores/index.fcgi?month=" + str(yesterday.month) + "&day=" + str(yesterday.day) + "&year=" + str(yesterday.year)
     
