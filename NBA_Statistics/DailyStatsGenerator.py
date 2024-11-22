@@ -115,4 +115,4 @@ def write_csv(name, columns, player_stats):
         
 
 
-Update_Player_Statistics(2025)
+#Update_Player_Statistics(2025)
