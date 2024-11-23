@@ -54,6 +54,26 @@ def categoryToWin_PlayerCorrelation(playerName, C, N, over=True, win=True, based
         return totalWins_withParams/totalPlayed
 
 #if devin booker averages 25 points per game over the reagular season how likely are they to make the playoffs?
+#what are devin booker's averages when Kevin Durant is not playing?
+def oneWithouttheOther(activePlayer, inactivePlayer):
+    active_df = at.getPlayerDataFrame(activePlayer)
+    inactive_df = at.getPlayerDataFrame(inactivePlayer)
+
+    active_date_list = []
+    inactive_date_list = []
+    try:
+        active_date_list = active_df['Date']
+        inactive_date_list = inactive_df['Date']
+    except:
+        raise Exception("Could not find the dates played of the players...")
+    
+    date_list = list(set(active_date_list).difference(inactive_date_list))
+
+    #date_list should contain all of the dates that one of the players played without the other.
+    #still in the works for how we are going about this.
+    
+
+
 
     
 
