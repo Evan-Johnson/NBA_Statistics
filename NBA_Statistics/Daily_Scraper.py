@@ -8,14 +8,14 @@ import csv
 
 print(date.today().day)
 
-def Get_Daily_Teams():
+def Get_Daily_Teams(days_before):
     
     team_reference = []
     #test url with two games... 4 teams
     #url = "https://www.basketball-reference.com/boxscores/?month=10&day=23&year=2024"
     #real url going forward will be this (games that happened yesterday):
     today = date.today()
-    yesterday = today - timedelta(days=1)
+    yesterday = today - timedelta(days = days_before)
     print("Yesterday was: " + str(yesterday))
     url = "https://www.basketball-reference.com/boxscores/index.fcgi?month=" + str(yesterday.month) + "&day=" + str(yesterday.day) + "&year=" + str(yesterday.year)
     
@@ -41,4 +41,4 @@ def Get_Daily_Teams():
 
         csvfile.close()
 
-Get_Daily_Teams()
+#Get_Daily_Teams(1)
