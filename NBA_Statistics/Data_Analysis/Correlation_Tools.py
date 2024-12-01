@@ -68,7 +68,9 @@ def oneWithouttheOther(activePlayer, inactivePlayer):
         raise Exception("Could not find the dates played of the players...")
     
     date_list = list(set(active_date_list).difference(inactive_date_list))
+    print(date_list)
 
+oneWithouttheOther('Devin Booker', 'Kevin Durant')
     #date_list should contain all of the dates that one of the players played without the other.
     #still in the works for how we are going about this.
     
