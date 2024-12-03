@@ -67,6 +67,7 @@ def oneWithouttheOther(activePlayer, inactivePlayer):
     except:
         raise Exception("Could not find the dates played of the players...")
     
+    print("nani?")
     date_list = list(set(active_date_list).difference(inactive_date_list))
     print(date_list)
 
@@ -79,4 +80,4 @@ oneWithouttheOther('Devin Booker', 'Kevin Durant')
 
     
 
-print(categoryToWin_PlayerCorrelation("Devin Booker", "Points", 25))
+#print(categoryToWin_PlayerCorrelation("Devin Booker", "Points", 25))
