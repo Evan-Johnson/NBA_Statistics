@@ -73,9 +73,10 @@ def plotSinglePlayerThreeStats(player_name, category_name1, category_name2, cate
 #plotSingleAxisAverage("Points")
 #plt.show()
 #plotSinglePlayerStats("Devin Booker", "Points")
-plotSinglePlayerThreeStats("Devin Booker", "Points", "Assists", "TRB")
+#plotSinglePlayerThreeStats("Devin Booker", "Points", "Assists", "TRB")
 #plt.savefig('Plots/BookStats.png')
 
 #plotSinglePlayerThreeStats("Nikola Jokić", "Points", "Assists", "TRB")
-plotSinglePlayerThreeStats("Kevin Durant", "Points", "Assists", "TRB")
+#plotSinglePlayerThreeStats("Kevin Durant", "Points", "Assists", "TRB")
 #plt.savefig('Plots/KDStats.png')
+plotSinglePlayerThreeStats("Lebron James", "Points", "Assists", "TRB")
