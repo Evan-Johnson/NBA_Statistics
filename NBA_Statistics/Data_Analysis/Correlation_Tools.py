@@ -70,6 +70,19 @@ def oneWithouttheOther(activePlayer, inactivePlayer):
     print("nani?")
     date_list = list(set(active_date_list).difference(inactive_date_list))
     print(date_list)
+    #print(str(active_df['Date'])
+
+    #for date in date_list:
+    #    rows = active_df.loc[active_df['Date'] == date]
+    #    for row in rows:
+    #        print(row)
+    
+    #print(active_df.loc[active_df['Date'] date_list])
+    #for df in active_df:
+    #    print(df[0])
+    #    if df['Date'] in date_list:
+    #        print(df)
+
 
 oneWithouttheOther('Devin Booker', 'Kevin Durant')
     #date_list should contain all of the dates that one of the players played without the other.
