@@ -1,5 +1,6 @@
 #Basic tools to determine the correlation between one or two variables
 import Analysis_Tools as at
+import pandas as pd
 
 #takes in playerName, category (C), and number (N) (optional win/loss, over/under, and dataframe)
 #returns how many games a player has played where he has won/lossed a game
@@ -69,11 +70,17 @@ def oneWithouttheOther(activePlayer, inactivePlayer):
     
     print("nani?")
     date_list = list(set(active_date_list).difference(inactive_date_list))
+    date_list = pd.to_datetime(date_list)
     print(date_list)
+    active_df['Date'] = pd.to_datetime(active_df['Date'])
+    print(active_df.dtypes)
+
+    for active_df['Date'] in date_list:
+        print("Hoy")
     #print(str(active_df['Date'])
 
     #for date in date_list:
-    #    rows = active_df.loc[active_df['Date'] == date]
+    #    rows = active_df[active_df['Date'] == date]
     #    for row in rows:
     #        print(row)
     
