@@ -77,7 +77,7 @@ def oneWithouttheOther(activePlayer, inactivePlayer):
     print(rows)
 
 
-oneWithouttheOther('Bam Adebayo', 'Jimmy Butler')
+oneWithouttheOther('Ben Simmons', 'Cam Thomas')
     #date_list should contain all of the dates that one of the players played without the other.
     #still in the works for how we are going about this.
     
