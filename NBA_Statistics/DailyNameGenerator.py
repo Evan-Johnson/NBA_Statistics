@@ -15,7 +15,7 @@ def Update_Name_URLs():
     name_urls = {} #used for final printing
     
     #get team names via TeamReference.csv
-    with open('NBA_Statistics/NBA_Statistics/DailyTeamReference.csv', newline = '') as team_file:
+    with open('NBA_Statistics/DailyTeamReference.csv', newline = '') as team_file:
         
         reader = csv.reader(team_file)
         
@@ -55,10 +55,10 @@ def Update_Name_URLs():
     
     #clear contents first to avoid dangling data upon update
     #additionally if json file does not exist, create empty json
-    player_reference_clear = open('NBA_Statistics/NBA_Statistics/DailyPlayerReference.json', 'w')
+    player_reference_clear = open('NBA_Statistics/DailyPlayerReference.json', 'w')
     player_reference_clear.close()
     
-    with open('NBA_Statistics/NBA_Statistics/DailyPlayerReference.json', 'w', encoding='utf8') as player_file:
+    with open('NBA_Statistics/DailyPlayerReference.json', 'w', encoding='utf8') as player_file:
         
         #I used dumps instead of dump to ensure ASCII characters
         player_string = json.dumps(name_urls, ensure_ascii = False)

@@ -14,7 +14,7 @@ def Update_Player_Statistics(year):
     player_reference = {}
     
     
-    with open('NBA_Statistics/NBA_Statistics/DailyPlayerReference.json', 'r', encoding='utf8') as Player_Reference:
+    with open('NBA_Statistics/DailyPlayerReference.json', 'r', encoding='utf8') as Player_Reference:
         player_reference = json.load(Player_Reference)
 
     
@@ -104,7 +104,7 @@ def Update_Player_Statistics(year):
         
         
 def write_csv(name, columns, player_stats):
-    with open('NBA_Statistics/NBA_Statistics/2025_player_data/'+ name + '.csv', 'w', newline='') as csvfile:
+    with open('NBA_Statistics/2025_player_data/'+ name + '.csv', 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames = columns)
         writer.writeheader()
     

@@ -33,7 +33,7 @@ def Get_Daily_Teams(days_before):
         #team now stores str like "NYK"
         team_reference.append(team)
 
-    with open('NBA_Statistics/NBA_Statistics/DailyTeamReference.csv', 'w', newline='') as csvfile:
+    with open('NBA_Statistics/DailyTeamReference.csv', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=',')
         for teams in team_reference:
             writer.writerow([teams])
