@@ -4,7 +4,7 @@ import DailyStatsGenerator as dsg
 #import Data_Analysis.Data_Builder as db
 from datetime import date, timedelta
 
-days_before = 8
+days_before = 1
 
 #Hoping this can just be ran instead of running each file one by one
 def Daily_Running():
