@@ -7,7 +7,7 @@ import os
 #returns data frame for particular player
 def getPlayerDataFrame(player_name):
     name = player_name + ".csv"
-    path = "NBA_Statistics/NBA_Statistics/2025_player_data/" + name
+    path = "NBA_Statistics/2025_player_data/" + name
     file = open(path, 'r', encoding='utf-8')
     try:
         return pd.read_csv(file)
@@ -16,7 +16,7 @@ def getPlayerDataFrame(player_name):
 
 #returns the data frame for the allPlayerAverage
 def getAllPlayerAverageDataFrame():
-    path = "NBA_Statistics/NBA_Statistics/allPlayerAverage.csv"
+    path = "NBA_Statistics/allPlayerAverage.csv"
     file = open(path, 'r', encoding='utf-8')
     try:
         return pd.read_csv(file)
@@ -24,7 +24,7 @@ def getAllPlayerAverageDataFrame():
         raise Exception('Could not find: ' + path + ", consider running buildAllPlayerAverage in Analysis_Tools.py")
 
 def getAllPlayerTotalDataFrame():
-    path = "NBA_Statistics/NBA_Statistics/allPlayerTotal.csv"
+    path = "NBA_Statistics/allPlayerTotal.csv"
     file = open(path, 'r', encoding='utf-8')
     try:
         return pd.read_csv(file)
@@ -34,7 +34,7 @@ def getAllPlayerTotalDataFrame():
 #Returns array of all player names in the 2025_Player_Data directory
 def getPlayerNames():
     # Get the list of all files 
-    path = "/Users/evanjohnson/Documents/nba/NBA_Statistics/NBA_Statistics/2025_player_data"
+    path = "/Users/evanjohnson/Documents/nba/NBA_Statistics/2025_player_data"
     dir_list = os.listdir(path)
     playerNames = [item[:-4] for item in dir_list]
     
@@ -141,6 +141,6 @@ def getTopTenTotal(category_name, num_players, bottom):
 #print(getPlayerMin("Luka Dončić", "Points"))
 #rint(getPlayerWins("Luka Dončić"))
 
-print(getTopTenAverage("Points", 15, False))
-print(getTopTenTotal("Points", 15, False))
+#print(getTopTenAverage("Points", 15, False))
+#print(getTopTenTotal("Points", 15, False))
 #print(getTopTenAverage("Margin", 5, False))

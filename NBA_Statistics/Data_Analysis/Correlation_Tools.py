@@ -76,8 +76,33 @@ def oneWithouttheOther(activePlayer, inactivePlayer):
     rows = active_df.loc[active_df['Date'].isin(date_list)]
     print(rows)
 
+#how does a player perform on the second day of a back to back
+def backToBack(player):
+    player_df = at.getPlayerDataFrame(player)
 
-oneWithouttheOther('Ben Simmons', 'Cam Thomas')
+    player_df['Date'] = pd.to_datetime(player_df['Date'], errors='coerce')
+
+    # Drop any rows with invalid dates (in case of parsing errors)
+    player_df = player_df.dropna(subset=['Date'])
+
+    # Sort by date
+    player_df = player_df.sort_values(by='Date').reset_index(drop=True)
+
+    # Create a shifted column for the previous date
+    player_df['Prev_Date'] = player_df['Date'].shift(1)
+
+    # Filter rows where the date is exactly one day after the previous date
+    next_day_dates = player_df[player_df['Date'] - player_df['Prev_Date'] == pd.Timedelta(days=1)]
+    
+
+    rows = player_df.loc[player_df['Date'].isin(next_day_dates['Date'])]
+
+    print(rows)
+
+#backToBack('Michael Porter')
+#backToBack('Nikola Jokić')
+backToBack('Christian Braun')
+#oneWithouttheOther('Ben Simmons', 'Cam Thomas')
     #date_list should contain all of the dates that one of the players played without the other.
     #still in the works for how we are going about this.
     
