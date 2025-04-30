@@ -32,6 +32,7 @@ def Update_Player_Statistics(year):
                     "fg3a", "fg3", "ft", "fta","orb", "trb", "ast", "stl", "blk", "tov", "pf", "pts", "plus_minus"]
     
         player_soup = Scraper_Master.Scrape_From_Source(url)
+        #print(player_soup)
         
         player_name = key
         
