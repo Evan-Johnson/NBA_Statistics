@@ -12,7 +12,7 @@ def Scrape_From_Source(url):
     
     page = None #set as empty, needs to have scope
     try:
-        page = requests.get(url)
+        page = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
     except:
         print("URL was invalid, please give valid URL")
         warnings.warn("Invalid URL: " + url)
