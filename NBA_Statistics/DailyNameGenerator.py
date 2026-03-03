@@ -49,7 +49,7 @@ def Update_Name_URLs():
                 if(href not in name_urls.values()):
                     name_urls[name] = href
         
-        time.sleep(5.5)
+        time.sleep(10)
     
     #write file contents to json
     
