@@ -116,4 +116,5 @@ def write_csv(name, columns, player_stats):
         
 
 
-Update_Player_Statistics(2025)
+if __name__ == "__main__":
+    Update_Player_Statistics(2026)

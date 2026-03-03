@@ -4,15 +4,17 @@
 
 
 from bs4 import BeautifulSoup as bs
-import requests
+import cloudscraper
 import warnings
+
+scraper = cloudscraper.create_scraper()
 
 #Returns the beautifulsoup object for a given url
 def Scrape_From_Source(url):
-    
+
     page = None #set as empty, needs to have scope
     try:
-        page = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
+        page = scraper.get(url)
     except:
         print("URL was invalid, please give valid URL")
         warnings.warn("Invalid URL: " + url)
