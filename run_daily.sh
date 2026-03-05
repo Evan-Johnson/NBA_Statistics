@@ -16,10 +16,11 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Commit and push updated stats
+# Commit and push updated stats and any code changes
 git add NBA_Statistics/2026_player_data/ \
         NBA_Statistics/DailyPlayerReference.json \
-        NBA_Statistics/DailyTeamReference.csv >> "$LOG_FILE" 2>&1
+        NBA_Statistics/DailyTeamReference.csv \
+        NBA_Statistics/*.py >> "$LOG_FILE" 2>&1
 
 git diff --cached --quiet && echo "No changes to commit." >> "$LOG_FILE" && exit 0
 
