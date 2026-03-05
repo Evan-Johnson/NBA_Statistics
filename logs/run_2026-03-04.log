@@ -1,0 +1,411 @@
+=== NBA Daily Run: Wed Mar  4 11:44:51 MST 2026 ===
+Traceback (most recent call last):
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/DailyController.py", line 1, in <module>
+    import Daily_Scraper as ds
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Daily_Scraper.py", line 5, in <module>
+    import Scraper_Master
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py", line 6, in <module>
+    from bs4 import BeautifulSoup as bs
+ModuleNotFoundError: No module named 'bs4'
+Script failed, skipping git push.
+=== NBA Daily Run: Wed Mar  4 11:45:50 MST 2026 ===
+4
+Yesterday was: 2026-03-03
+https://www.basketball-reference.com/boxscores/index.fcgi?month=3&day=3&year=2026
+Daily teams were received and saved.
+OKC
+CHI
+DAL
+CHO
+DET
+CLE
+NOP
+LAL
+BRK
+MIA
+MEM
+MIN
+WAS
+ORL
+SAS
+PHI
+PHO
+SAC
+NYK
+TOR
+Player reference was updated.
+Beginning player scraping...
+Cason Wallace has no games found
+Chet Holmgren has no games found
+Isaiah Joe has no games found
+Luguentz Dort has no games found
+Shai Gilgeous-Alexander has no games found
+Aaron Wiggins has no games found
+Jaylin Williams has no games found
+Ajay Mitchell has no games found
+Kenrich Williams has no games found
+Alex Caruso has no games found
+Isaiah Hartenstein has no games found
+Branden Carlson has no games found
+Brooks Barnhizer has no games found
+Jalen Williams has no games found
+Jared McCain has no games found
+Nikola Topić has no games found
+Thomas Sorber has no games found
+Payton Sandfort has no games found
+Matas Buzelis has no games found
+Patrick Williams has no games found
+Isaac Okoro has no games found
+Jalen Smith has no games found
+Tre Jones has no games found
+Josh Giddey has no games found
+Lachlan Olbrich has no games found
+Guerschon Yabusele has no games found
+Collin Sexton has no games found
+Zach Collins has no games found
+Nick Richards has no games found
+Rob Dillingham has no games found
+Leonard Miller has no games found
+Anfernee Simons has no games found
+Yuki Kawamura has no games found
+Jaden Ivey has no games found
+Noa Essengue has no games found
+Mac McClung has no games found
+Naji Marshall has no games found
+Max Christie has no games found
+Klay Thompson has no games found
+Brandon Williams has no games found
+Caleb Martin has no games found
+Cooper Flagg has no games found
+Dwight Powell has no games found
+Daniel Gafford has no games found
+P.J. Washington has no games found
+Ryan Nembhard has no games found
+Moussa Cisse has no games found
+Khris Middleton has no games found
+AJ Johnson has no games found
+Marvin Bagley has no games found
+Dereck Lively has no games found
+John Poulakidas has no games found
+Kyrie Irving has no games found
+Tyler Smith has no games found
+Sion James has no games found
+Kon Knueppel has no games found
+Miles Bridges has no games found
+Moussa Diabaté has no games found
+LaMelo Ball has no games found
+Ryan Kalkbrenner has no games found
+Brandon Miller has no games found
+Tre Mann has no games found
+Josh Green has no games found
+Tidjane Salaün has no games found
+Liam McNeeley has no games found
+Pat Connaughton has no games found
+Grant Williams has no games found
+PJ Hall has no games found
+Antonio Reeves has no games found
+Xavier Tillman has no games found
+Coby White has no games found
+Tosan Evbuomwan has no games found
+Javonte Green has no games found
+Duncan Robinson has no games found
+Ausar Thompson has no games found
+Ron Holland has no games found
+Cade Cunningham has no games found
+Daniss Jenkins has no games found
+Jalen Duren has no games found
+Isaiah Stewart has no games found
+Tobias Harris has no games found
+Paul Reed has no games found
+Caris LeVert has no games found
+Chaz Lanier has no games found
+Marcus Sasser has no games found
+Bobi Klintman has no games found
+Tolu Smith has no games found
+Kevin Huerter has no games found
+Wendell Moore has no games found
+Isaac Jones has no games found
+Jaylon Tyson has no games found
+Donovan Mitchell has no games found
+Craig Porter has no games found
+Jarrett Allen has no games found
+Nae'Qwan Tomlin has no games found
+Evan Mobley has no games found
+Dean Wade has no games found
+Thomas Bryant has no games found
+Tyrese Proctor has no games found
+Sam Merrill has no games found
+Larry Nance has no games found
+Dennis Schröder has no games found
+Keon Ellis has no games found
+James Harden has no games found
+Tristan Enaruna has no games found
+Darius Brown has no games found
+Max Strus has no games found
+Riley Minix has no games found
+Jeremiah Fears has no games found
+Derik Queen has no games found
+Saddiq Bey has no games found
+Trey Murphy has no games found
+Yves Missi has no games found
+Karlo Matković has no games found
+Micah Peavy has no games found
+Zion Williamson has no games found
+Herbert Jones has no games found
+Jordan Hawkins has no games found
+Bryce McGowens has no games found
+Jordan Poole has no games found
+Kevon Looney has no games found
+DeAndre Jordan has no games found
+Trey Alexander has no games found
+Dejounte Murray has no games found
+Hunter Dickinson has no games found
+Jake LaRavia has no games found
+Deandre Ayton has no games found
+Marcus Smart has no games found
+Jaxson Hayes has no games found
+Jarred Vanderbilt has no games found
+Luka Dončić has no games found
+Rui Hachimura has no games found
+Dalton Knecht has no games found
+LeBron James has no games found
+Austin Reaves has no games found
+Maxi Kleber has no games found
+Bronny James has no games found
+Nick Smith has no games found
+Drew Timme has no games found
+Adou Thiero has no games found
+Luke Kennard has no games found
+Kobe Bufkin has no games found
+Chris Mañon has no games found
+Day'Ron Sharpe has no games found
+Noah Clowney has no games found
+Nic Claxton has no games found
+Terance Mann has no games found
+Egor Dёmin has no games found
+Michael Porter has no games found
+Danny Wolf has no games found
+Drake Powell has no games found
+Ziaire Williams has no games found
+Jalen Wilson has no games found
+Nolan Traoré has no games found
+Ben Saraf has no games found
+E.J. Liddell has no games found
+Ochai Agbaji has no games found
+Tyson Etienne has no games found
+Josh Minott has no games found
+Grant Nelson has no games found
+Chaney Johnson has no games found
+Dru Smith has no games found
+Kel'el Ware has no games found
+Simone Fontecchio has no games found
+Jaime Jaquez has no games found
+Andrew Wiggins has no games found
+Bam Adebayo has no games found
+Pelle Larsson has no games found
+Davion Mitchell has no games found
+Norman Powell has no games found
+Nikola Jović has no games found
+Kasparas Jakučionis has no games found
+Myron Gardner has no games found
+Keshad Johnson has no games found
+Tyler Herro has no games found
+Jahmir Young has no games found
+Vladislav Goldin has no games found
+Trevor Keels has no games found
+Terry Rozier has no games found
+Jaylen Wells has no games found
+Cam Spencer has no games found
+Kentavious Caldwell-Pope has no games found
+Cedric Coward has no games found
+Santi Aldama has no games found
+GG Jackson has no games found
+Olivier-Maxence Prosper has no games found
+Javon Small has no games found
+Ja Morant has no games found
+Jahmai Mashack has no games found
+Zach Edey has no games found
+Taylor Hendricks has no games found
+Ty Jerome has no games found
+Scotty Pippen has no games found
+Walter Clayton has no games found
+Rayan Rupert has no games found
+Brandon Clarke has no games found
+Taj Gibson has no games found
+Julius Randle has no games found
+Donte DiVincenzo has no games found
+Naz Reid has no games found
+Jaden McDaniels has no games found
+Rudy Gobert has no games found
+Jaylen Clark has no games found
+Bones Hyland has no games found
+Anthony Edwards has no games found
+Mike Conley has no games found
+Joan Beringer has no games found
+Terrence Shannon has no games found
+Joe Ingles has no games found
+Ayo Dosunmu has no games found
+Julian Phillips has no games found
+Enrique Freeman has no games found
+Rocco Zikarsky has no games found
+Zyon Pullin has no games found
+Bub Carrington has no games found
+Justin Champagnie has no games found
+Will Riley has no games found
+Kyshawn George has no games found
+Tre Johnson has no games found
+Alex Sarr has no games found
+Bilal Coulibaly has no games found
+Tristan Vukcevic has no games found
+Anthony Gill has no games found
+Jamir Watkins has no games found
+Cam Whitmore has no games found
+Sharife Cooper has no games found
+Jaden Hardy has no games found
+Julian Reese has no games found
+D'Angelo Russell has no games found
+Anthony Davis has no games found
+Trae Young has no games found
+Desmond Bane has no games found
+Anthony Black has no games found
+Wendell Carter has no games found
+Tristan Da has no games found
+Jonathan Isaac has no games found
+Paolo Banchero has no games found
+Goga Bitadze has no games found
+Jase Richardson has no games found
+Noah Penda has no games found
+Jett Howard has no games found
+Jalen Suggs has no games found
+Franz Wagner has no games found
+Jamal Cain has no games found
+Moritz Wagner has no games found
+Jevon Carter has no games found
+Colin Castleton has no games found
+Alex Morales has no games found
+Keldon Johnson has no games found
+Julian Champagnie has no games found
+Harrison Barnes has no games found
+De'Aaron Fox has no games found
+Stephon Castle has no games found
+Luke Kornet has no games found
+Dylan Harper has no games found
+Carter Bryant has no games found
+Devin Vassell has no games found
+Victor Wembanyama has no games found
+Kelly Olynyk has no games found
+Lindy Waters has no games found
+Jordan McLaughlin has no games found
+Bismack Biyombo has no games found
+David Jones has no games found
+Harrison Ingram has no games found
+Emanuel Miller has no games found
+Mason Plumlee has no games found
+Tyrese Maxey has no games found
+VJ Edgecombe has no games found
+Quentin Grimes has no games found
+Adem Bona has no games found
+Jabari Walker has no games found
+Dominick Barlow has no games found
+Andre Drummond has no games found
+Justin Edwards has no games found
+Kelly Oubre has no games found
+Trendon Watford has no games found
+Joel Embiid has no games found
+Paul George has no games found
+Johni Broome has no games found
+Cameron Payne has no games found
+Kyle Lowry has no games found
+Dalen Terry has no games found
+Tyrese Martin has no games found
+MarJon Beauchamp has no games found
+Royce O'Neale has no games found
+Oso Ighodaro has no games found
+Collin Gillespie has no games found
+Mark Williams has no games found
+Jordan Goodwin has no games found
+Ryan Dunn has no games found
+Dillon Brooks has no games found
+Devin Booker has no games found
+Grayson Allen has no games found
+Rasheer Fleming has no games found
+Jamaree Bouyea has no games found
+Isaiah Livers has no games found
+Khaman Maluach has no games found
+Jalen Green has no games found
+Amir Coffey has no games found
+Koby Brea has no games found
+Haywood Highsmith has no games found
+CJ Huntley has no games found
+DeMar DeRozan has no games found
+Nique Clifford has no games found
+Russell Westbrook has no games found
+Maxime Raynaud has no games found
+Precious Achiuwa has no games found
+Malik Monk has no games found
+Zach LaVine has no games found
+Drew Eubanks has no games found
+Dylan Cardwell has no games found
+Devin Carter has no games found
+Keegan Murray has no games found
+Domantas Sabonis has no games found
+Daeqwon Plowden has no games found
+Doug McDermott has no games found
+Killian Hayes has no games found
+Isaiah Stevens has no games found
+Patrick Baldwin has no games found
+De'Andre Hunter has no games found
+Mikal Bridges has no games found
+Karl-Anthony Towns has no games found
+Jalen Brunson has no games found
+Jordan Clarkson has no games found
+Tyler Kolek has no games found
+Mohamed Diawara has no games found
+Josh Hart has no games found
+OG Anunoby has no games found
+Mitchell Robinson has no games found
+Ariel Hukporti has no games found
+Landry Shamet has no games found
+Miles McBride has no games found
+Pacôme Dadiet has no games found
+Kevin McCullar has no games found
+Trey Jemison has no games found
+Jose Alvarado has no games found
+Jeremy Sochan has no games found
+Dillon Jones has no games found
+Jamal Shead has no games found
+Brandon Ingram has no games found
+Scottie Barnes has no games found
+Sandro Mamukelashvili has no games found
+Gradey Dick has no games found
+Immanuel Quickley has no games found
+Ja'Kobe Walter has no games found
+Collin Murray-Boyles has no games found
+Jamison Battle has no games found
+RJ Barrett has no games found
+Jakob Poeltl has no games found
+Jonathan Mogbo has no games found
+A.J. Lawson has no games found
+Alijah Martin has no games found
+Garrett Temple has no games found
+Trayce Jackson-Davis has no games found
+Chucky Hepburn has no games found
+Player statistics have been updated for 2026-03-03
+[master a476892] Daily stats update: 2026-03-04
+ 2 files changed, 356 insertions(+), 132 deletions(-)
+To https://github.com/Evan-Johnson/NBA_Statistics.git
+   f5a3fd8..a476892  master -> master
+Done.
+=== NBA Daily Run: Wed Mar  4 11:59:07 MST 2026 ===
+4
+Yesterday was: 2026-03-03
+https://www.basketball-reference.com/boxscores/index.fcgi?month=3&day=3&year=2026
+Daily teams were received and saved.
+Player reference was updated.
+Beginning player scraping...
+Player statistics have been updated for 2026-03-03
+[master fc2d31f] Daily stats update: 2026-03-04
+ 2 files changed, 1 insertion(+), 375 deletions(-)
+To https://github.com/Evan-Johnson/NBA_Statistics.git
+   a476892..fc2d31f  master -> master
+Done.

@@ -9,7 +9,7 @@ echo "=== NBA Daily Run: $(date) ===" >> "$LOG_FILE"
 cd /Users/evanjohnson/Documents/personal/NBA_Statistics
 
 # Run the scraper
-python3 NBA_Statistics/DailyController.py >> "$LOG_FILE" 2>&1
+/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 NBA_Statistics/DailyController.py >> "$LOG_FILE" 2>&1
 
 if [ $? -ne 0 ]; then
     echo "Script failed, skipping git push." >> "$LOG_FILE"
