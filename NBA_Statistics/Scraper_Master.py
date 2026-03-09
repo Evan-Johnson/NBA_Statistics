@@ -14,7 +14,7 @@ def Scrape_From_Source(url):
 
     page = None #set as empty, needs to have scope
     try:
-        page = scraper.get(url)
+        page = scraper.get(url, timeout=30)
     except:
         print("URL was invalid, please give valid URL")
         warnings.warn("Invalid URL: " + url)
