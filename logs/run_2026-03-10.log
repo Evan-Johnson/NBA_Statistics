@@ -1,0 +1,11 @@
+=== NBA Daily Run: Tue Mar 10 09:00:08 MDT 2026 ===
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jacksgg01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hendrta01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/ruperra01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/liddeej01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/grimequ01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
