@@ -17,10 +17,13 @@ def Get_Daily_Teams(days_before):
     today = date.today()
     yesterday = today - timedelta(days = days_before)
     print("Yesterday was: " + str(yesterday))
-    url = "https://www.basketball-reference.com/boxscores/index.fcgi?month=" + str(yesterday.month) + "&day=" + str(yesterday.day) + "&year=" + str(yesterday.year)
-    
+    url = "https://www.basketball-reference.com/boxscores/?month=" + str(yesterday.month) + "&day=" + str(yesterday.day) + "&year=" + str(yesterday.year)
+
     print(url)
     team_soup = Scraper_Master.Scrape_From_Source(url)
+
+    if team_soup == -1:
+        raise RuntimeError("Failed to fetch boxscores page: " + url)
 
     team_rows = team_soup.find(name = "div", attrs = {"id": "content"}).findAll(name = "tr", class_=lambda x: x and any(c in x.split() for c in ["winner", "loser"]))
     
