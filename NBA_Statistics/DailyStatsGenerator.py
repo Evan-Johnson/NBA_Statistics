@@ -21,8 +21,9 @@ def Update_Player_Statistics(year):
     
     urls = []
     player_limit = 0
+    consecutive_failures = 0
     print("Beginning player scraping...")
-    
+
     for key in player_reference:
         url = "https://www.basketball-reference.com" + player_reference[key] + "/gamelog/" + str(year) + "/"
 
@@ -34,11 +35,11 @@ def Update_Player_Statistics(year):
     
         player_soup = Scraper_Master.Scrape_From_Source(url)
         #print(player_soup)
-        
+
         player_name = key
-        
+
         player_data_all = []
-        
+
         try:
             pgl_div = player_soup.find(name="div", attrs={"id": "all_player_game_log_reg"})
             if pgl_div is None:
@@ -50,7 +51,15 @@ def Update_Player_Statistics(year):
             player_data_rows = pgl_div.findAll(name="tr")
         except AttributeError as e:
             print(player_name + " has no games found")
+            consecutive_failures += 1
+            if consecutive_failures >= 5:
+                print(f"Rate limit detected ({consecutive_failures} consecutive failures) — taking a 10-minute break...")
+                Scraper_Master.reset_scraper()
+                time.sleep(600)
+                consecutive_failures = 0
             continue
+
+        consecutive_failures = 0
         
         for row in player_data_rows:
 
