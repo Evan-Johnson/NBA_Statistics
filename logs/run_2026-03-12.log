@@ -1,0 +1,314 @@
+=== NBA Daily Run: Thu Mar 12 09:09:41 MDT 2026 ===
+12
+Yesterday was: 2026-03-11
+https://www.basketball-reference.com/boxscores/?month=3&day=11&year=2026
+Daily teams were received and saved.
+HOU
+DEN
+MIN
+LAC
+TOR
+Request failed (ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/teams/TOR/2026.html
+  warnings.warn("Invalid URL: " + url)
+NOP
+CLE
+ORL
+CHO
+SAC
+NYK
+UTA
+Player reference was updated.
+Beginning player scraping...
+Reed Sheppard Complete
+Amen Thompson Complete
+Kevin Durant Complete
+Josh Okogie Complete
+Jabari Smith Complete
+Clint Capela Complete
+Alperen Şengün Complete
+Tari Eason Complete
+Aaron Holiday Complete
+Jae'Sean Tate Complete
+Steven Adams Complete
+Dorian Finney-Smith Complete
+JD Davison Complete
+Jeff Green Complete
+Isaiah Crawford Complete
+Fred VanVleet Complete
+Tristen Newton Complete
+Bruce Brown Complete
+Tim Hardaway Complete
+Jamal Murray Complete
+Jonas Valančiūnas Complete
+Taking a long break...
+Spencer Jones Complete
+Nikola Jokić Complete
+Peyton Watson Complete
+Zeke Nnaji Complete
+Julian Strawther Complete
+Jalen Pickett Complete
+Cameron Johnson Complete
+Christian Braun Complete
+Aaron Gordon Complete
+DaRon Holmes Complete
+Curtis Jones Complete
+KJ Simpson Complete
+Tyus Jones Complete
+David Roddy Complete
+Julius Randle Complete
+Donte DiVincenzo Complete
+Naz Reid Complete
+Jaden McDaniels Complete
+Rudy Gobert Complete
+Jaylen Clark Complete
+Bones Hyland Complete
+Taking a long break...
+Anthony Edwards Complete
+Mike Conley Complete
+Joan Beringer Complete
+Terrence Shannon Complete
+Joe Ingles Complete
+Ayo Dosunmu Complete
+Julian Phillips Complete
+Rocco Zikarsky Complete
+Enrique Freeman Complete
+Zyon Pullin Complete
+Kris Dunn Complete
+Nicolas Batum Complete
+Brook Lopez Complete
+John Collins Complete
+Kobe Sanders Complete
+Kawhi Leonard Complete
+Jordan Miller Complete
+Cam Christie Complete
+Yanic Konan Complete
+Derrick Jones Complete
+Bogdan Bogdanović Complete
+Taking a long break...
+Bennedict Mathurin Complete
+Isaiah Jackson Complete
+TyTy Washington Complete
+Bradley Beal Complete
+Darius Garland Complete
+Norchad Omier Complete
+Sean Pedulla Complete
+Jamal Shead Complete
+Brandon Ingram Complete
+Scottie Barnes Complete
+Sandro Mamukelashvili Complete
+Gradey Dick Complete
+Immanuel Quickley Complete
+Ja'Kobe Walter Complete
+Jamison Battle Complete
+Collin Murray-Boyles Complete
+RJ Barrett Complete
+Jakob Poeltl Complete
+Jonathan Mogbo Complete
+Alijah Martin Complete
+Garrett Temple Complete
+Taking a long break...
+A.J. Lawson Complete
+Trayce Jackson-Davis Complete
+Chucky Hepburn Complete
+Jeremiah Fears Complete
+Derik Queen Complete
+Saddiq Bey Complete
+Trey Murphy Complete
+Yves Missi Complete
+Karlo Matković Complete
+Micah Peavy Complete
+Zion Williamson Complete
+Herbert Jones Complete
+Bryce McGowens Complete
+Jordan Hawkins Complete
+Jordan Poole Complete
+Kevon Looney Complete
+DeAndre Jordan Complete
+Dejounte Murray Complete
+Trey Alexander Complete
+Hunter Dickinson Complete
+Josh Oduro Complete
+Taking a long break...
+Jaylon Tyson Complete
+Donovan Mitchell Complete
+Craig Porter Complete
+Evan Mobley Complete
+Jarrett Allen Complete
+Nae'Qwan Tomlin Complete
+Dean Wade Complete
+Thomas Bryant Complete
+Sam Merrill Complete
+Tyrese Proctor Complete
+Larry Nance Complete
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+Dennis Schröder Complete
+Keon Ellis Complete
+James Harden Complete
+Tristan Enaruna Complete
+Riley Minix Complete
+Max Strus Complete
+Olivier Sarr Complete
+Desmond Bane Complete
+Wendell Carter Complete
+Anthony Black Complete
+Taking a long break...
+Tristan Da Complete
+Paolo Banchero Complete
+Jonathan Isaac Complete
+Goga Bitadze Complete
+Noah Penda Complete
+Jase Richardson Complete
+Jett Howard Complete
+Jalen Suggs Complete
+Franz Wagner Complete
+Moritz Wagner Complete
+Jamal Cain Complete
+Jevon Carter Complete
+Colin Castleton Complete
+Alex Morales Complete
+Sion James Complete
+Kon Knueppel Complete
+Miles Bridges Complete
+Moussa Diabaté Complete
+LaMelo Ball Complete
+Ryan Kalkbrenner Complete
+Brandon Miller Complete
+Taking a long break...
+Tre Mann Complete
+Josh Green Complete
+Tidjane Salaün Complete
+Pat Connaughton Complete
+Liam McNeeley Complete
+Grant Williams Complete
+PJ Hall Complete
+Antonio Reeves Complete
+Xavier Tillman Complete
+Coby White Complete
+Tosan Evbuomwan Complete
+DeMar DeRozan Complete
+Nique Clifford Complete
+Russell Westbrook Complete
+Maxime Raynaud Complete
+Precious Achiuwa Complete
+Malik Monk Complete
+Drew Eubanks Complete
+Zach LaVine Complete
+Dylan Cardwell Complete
+Devin Carter Complete
+Taking a long break...
+Keegan Murray Complete
+Domantas Sabonis Complete
+Daeqwon Plowden Complete
+Doug McDermott Complete
+Killian Hayes Complete
+Patrick Baldwin Complete
+Isaiah Stevens Complete
+De'Andre Hunter Complete
+Mikal Bridges Complete
+Karl-Anthony Towns Complete
+Jalen Brunson Complete
+Jordan Clarkson Complete
+Mohamed Diawara Complete
+Tyler Kolek Complete
+Josh Hart Complete
+OG Anunoby Complete
+Mitchell Robinson Complete
+Ariel Hukporti Complete
+Landry Shamet Complete
+Miles McBride Complete
+Pacôme Dadiet Complete
+Taking a long break...
+Kevin McCullar Complete
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+Jose Alvarado Complete
+Trey Jemison Complete
+Jeremy Sochan Complete
+Dillon Jones Complete
+Kyle Filipowski Complete
+Brice Sensabaugh Complete
+Ace Bailey Complete
+Isaiah Collier Complete
+Keyonte George Complete
+Cody Williams Complete
+Svi Mykhailiuk Complete
+Lauri Markkanen Complete
+Jusuf Nurkić Complete
+Kevin Love Complete
+Elijah Harkless Complete
+John Konchar Complete
+Oscar Tshiebwe Complete
+Blake Hinson Complete
+Walker Kessler Complete
+Jaren Jackson Complete
+Taking a long break...
+Mo Bamba Complete
+Player statistics have been updated for 2026-03-11
+[master b26041d] Daily stats update: 2026-03-12
+ 151 files changed, 498 insertions(+), 338 deletions(-)
+ create mode 100644 NBA_Statistics/2026_player_data/Tyus Jones.csv
+To https://github.com/Evan-Johnson/NBA_Statistics.git
+   799bd5d..b26041d  master -> master
+Done.

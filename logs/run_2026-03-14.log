@@ -1,0 +1,19 @@
+=== NBA Daily Run: Sat Mar 14 09:00:05 MDT 2026 ===
+14
+Yesterday was: 2026-03-13
+https://www.basketball-reference.com/boxscores/?month=3&day=13&year=2026
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /boxscores/?month=3&day=13&year=2026 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10b17cd70>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/boxscores/?month=3&day=13&year=2026
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /boxscores/?month=3&day=13&year=2026 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10b1c5a90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Traceback (most recent call last):
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/DailyController.py", line 25, in <module>
+    Daily_Running()
+    ~~~~~~~~~~~~~^^
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/DailyController.py", line 11, in Daily_Running
+    ds.Get_Daily_Teams(days_before)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Daily_Scraper.py", line 26, in Get_Daily_Teams
+    raise RuntimeError("Failed to fetch boxscores page: " + url)
+RuntimeError: Failed to fetch boxscores page: https://www.basketball-reference.com/boxscores/?month=3&day=13&year=2026
+Script failed, skipping git push.

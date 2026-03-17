@@ -1,0 +1,1489 @@
+=== NBA Daily Run: Wed Mar 11 09:03:40 MDT 2026 ===
+11
+Yesterday was: 2026-03-10
+https://www.basketball-reference.com/boxscores/index.fcgi?month=3&day=10&year=2026
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/boxscores/index.fcgi?month=3&day=10&year=2026
+  warnings.warn("Invalid URL: " + url)
+Traceback (most recent call last):
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/DailyController.py", line 25, in <module>
+    Daily_Running()
+    ~~~~~~~~~~~~~^^
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/DailyController.py", line 11, in Daily_Running
+    ds.Get_Daily_Teams(days_before)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Daily_Scraper.py", line 25, in Get_Daily_Teams
+    team_rows = team_soup.find(name = "div", attrs = {"id": "content"}).findAll(name = "tr", class_=lambda x: x and any(c in x.split() for c in ["winner", "loser"]))
+                ^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'find'
+Script failed, skipping git push.
+=== NBA Daily Run: Wed Mar 11 10:07:12 MDT 2026 ===
+11
+Yesterday was: 2026-03-10
+https://www.basketball-reference.com/boxscores/?month=3&day=10&year=2026
+Daily teams were received and saved.
+DAL
+ATL
+DET
+BRK
+CHI
+GSW
+TOR
+HOU
+MIN
+LAL
+WAS
+MIA
+PHO
+MIL
+MEM
+PHI
+CHO
+POR
+IND
+SAC
+BOS
+SAS
+Player reference was updated.
+Beginning player scraping...
+Naji Marshall Complete
+Max Christie Complete
+Klay Thompson Complete
+Brandon Williams Complete
+Caleb Martin Complete
+Cooper Flagg Complete
+Dwight Powell Complete
+P.J. Washington Complete
+Daniel Gafford Complete
+Ryan Nembhard Complete
+Moussa Cisse Complete
+Khris Middleton Complete
+AJ Johnson Complete
+Marvin Bagley Complete
+Dereck Lively Complete
+John Poulakidas Complete
+Kyrie Irving Complete
+Tyler Smith Complete
+Nickeil Alexander-Walker Complete
+Dyson Daniels Complete
+Mouhamed Gueye Complete
+Taking a long break...
+Onyeka Okongwu Complete
+Jalen Johnson Complete
+Zaccharie Risacher Complete
+Keaton Wallace Complete
+Asa Newell Complete
+CJ McCollum Complete
+Corey Kispert Complete
+Jock Landale Complete
+Caleb Houstan Complete
+Christian Koloko Complete
+Gabe Vincent Complete
+Jonathan Kuminga Complete
+Buddy Hield Complete
+RayJ Dennis Complete
+Keshon Gilbert Complete
+Javonte Green Complete
+Duncan Robinson Complete
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hollaro01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ron Holland has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/cunnica01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Cade Cunningham has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/thompau01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ausar Thompson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jenkida01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Daniss Jenkins has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/durenja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jalen Duren has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/stewais01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Isaiah Stewart has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/harrito02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tobias Harris has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/reedpa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Paul Reed has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/leverca01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Caris LeVert has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/sassema01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Marcus Sasser has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/laniech01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Chaz Lanier has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/klintbo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Bobi Klintman has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/huertke01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kevin Huerter has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/smithto05/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tolu Smith has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/moorewe01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Wendell Moore has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jonesis01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Isaac Jones has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/sharpda01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Day'Ron Sharpe has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/clownno01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Noah Clowney has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/claxtni01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Nic Claxton has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mannte01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Terance Mann has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/portemi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Michael Porter has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/demineg01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Egor Dёmin has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/wolfda01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Danny Wolf has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/poweldr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Drake Powell has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/willizi02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ziaire Williams has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/traorno01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Nolan Traoré has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/wilsoja03/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jalen Wilson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/sarafbe01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ben Saraf has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/liddeej01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+E.J. Liddell has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/a/agbajoc01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ochai Agbaji has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/e/etienty01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tyson Etienne has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/minotjo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Josh Minott has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/johnsch06/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Chaney Johnson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/buzelma01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Matas Buzelis has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/willipa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Patrick Williams has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/o/okorois01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Isaac Okoro has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jonestr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tre Jones has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/smithja04/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jalen Smith has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/giddejo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Josh Giddey has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/o/olbrila01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Lachlan Olbrich has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/y/yabusgu01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Guerschon Yabusele has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/richani01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Nick Richards has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/dilliro01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Rob Dillingham has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/sextoco01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Collin Sexton has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/colliza01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Zach Collins has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/millele01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Leonard Miller has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/kawamyu01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Yuki Kawamura has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/simonan01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Anfernee Simons has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/i/iveyja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jaden Ivey has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/e/essenno01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Noa Essengue has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mccluma01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Mac McClung has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/podzibr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Brandin Podziemski has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/postqu01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Quinten Post has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/moodymo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Moses Moody has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/paytoga02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Gary Payton has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/richawi02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Will Richard has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/greendr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Draymond Green has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/santogu01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Gui Santos has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/spencpa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Pat Spencer has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/horfoal01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Al Horford has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/curryst01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Stephen Curry has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/butleji01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jimmy Butler has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/meltode01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+De'Anthony Melton has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/leonsma01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Malevy Leons has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/cryerlj01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+LJ Cryer has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/willije02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Nate Williams has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/porzikr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kristaps Porziņģis has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/curryse01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Seth Curry has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/sheadja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jamal Shead has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/i/ingrabr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Brandon Ingram has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/barnesc01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Scottie Barnes has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mamuksa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Sandro Mamukelashvili has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/dickgr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Gradey Dick has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/q/quickim01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Immanuel Quickley has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/walteja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ja'Kobe Walter has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/murraco01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Collin Murray-Boyles has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/battlja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jamison Battle has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/barrerj01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+RJ Barrett has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/poeltja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jakob Poeltl has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mogbojo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jonathan Mogbo has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/templga01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Garrett Temple has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/martial01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Alijah Martin has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/lawsoaj01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+A.J. Lawson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jackstr02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Trayce Jackson-Davis has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hepbuch01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Chucky Hepburn has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/sheppre01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Reed Sheppard has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/thompam01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Amen Thompson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/duranke01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kevin Durant has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/o/okogijo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Josh Okogie has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/smithja05/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jabari Smith has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/capelca01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Clint Capela has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/sengual01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Alperen Şengün has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/e/easonta01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tari Eason has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/holidaa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Aaron Holiday has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/tateja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jae'Sean Tate has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/a/adamsst01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Steven Adams has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/f/finnedo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Dorian Finney-Smith has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/davisjd01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+JD Davison has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/greenje02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jeff Green has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/crawfis01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Isaiah Crawford has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/v/vanvlfr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Fred VanVleet has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/n/newtotr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tristen Newton has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/randlju01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Julius Randle has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/divindo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Donte DiVincenzo has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/reidna01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Naz Reid has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mcdanja02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jaden McDaniels has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/goberru01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Rudy Gobert has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/clarkja02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jaylen Clark has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hylanbo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Bones Hyland has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/e/edwaran01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Anthony Edwards has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/conlemi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Mike Conley has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/berinjo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Joan Beringer has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/shannte01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Terrence Shannon has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/i/inglejo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Joe Ingles has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/dosunay01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ayo Dosunmu has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/phillju01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Julian Phillips has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/z/zikarro01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Rocco Zikarsky has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/f/freemen01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Enrique Freeman has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/pullizy01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Zyon Pullin has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/laravja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jake LaRavia has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/a/aytonde01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Deandre Ayton has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/smartma01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Marcus Smart has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hayesja02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jaxson Hayes has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/v/vandeja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jarred Vanderbilt has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/doncilu01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Luka Dončić has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hachiru01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Rui Hachimura has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/knechda01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Dalton Knecht has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jamesle01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+LeBron James has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/reaveau01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Austin Reaves has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/klebima01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Maxi Kleber has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jamesbr02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Bronny James has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/smithni01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Nick Smith has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/timmedr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Drew Timme has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/thierad01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Adou Thiero has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/kennalu01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Luke Kennard has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/bufkiko01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kobe Bufkin has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/manonch01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Chris Mañon has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/carrica01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Bub Carrington has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/champju01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Justin Champagnie has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/rileywi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Will Riley has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/johnstr03/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tre Johnson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/georgky01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kyshawn George has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/coulibi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Bilal Coulibaly has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/sarral01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Alex Sarr has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/v/vukcetr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tristan Vukcevic has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/gillan01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Anthony Gill has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/watkija01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jamir Watkins has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/coopesh01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Sharife Cooper has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/whitmca01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Cam Whitmore has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hardyja02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jaden Hardy has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/reeseju01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Julian Reese has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/y/youngtr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Trae Young has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/russeda01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+D'Angelo Russell has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/davisan02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Anthony Davis has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/smithdr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Dru Smith has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jaqueja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jaime Jaquez has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/wareke01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kel'el Ware has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/f/fontesi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Simone Fontecchio has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/a/adebaba01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Bam Adebayo has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/wiggian01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Andrew Wiggins has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/larsspe01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Pelle Larsson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mitchda01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Davion Mitchell has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/powelno01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Norman Powell has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jovicni01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Nikola Jović has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jakucka01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kasparas Jakučionis has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/gardnmy01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Myron Gardner has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/johnske10/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Keshad Johnson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/herroty01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tyler Herro has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/y/youngja05/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jahmir Young has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/goldivl01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Vladislav Goldin has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/keelstr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Trevor Keels has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/roziete01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Terry Rozier has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/o/onealro01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Royce O'Neale has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/i/ighodos01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Oso Ighodaro has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/gilleco01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Collin Gillespie has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/dunnry01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ryan Dunn has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/willima07/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Mark Williams has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/goodwjo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jordan Goodwin has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/brookdi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Dillon Brooks has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/bookede01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Devin Booker has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/a/allengr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Grayson Allen has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/f/flemira01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Rasheer Fleming has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/bouyeja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jamaree Bouyea has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/liveris01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Isaiah Livers has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/maluakh01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Khaman Maluach has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/greenja05/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jalen Green has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/coffeam01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Amir Coffey has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/breako01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Koby Brea has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/highsha01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Haywood Highsmith has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/huntlcj01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+CJ Huntley has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/rolliry01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ryan Rollins has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/portibo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Bobby Portis has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/turnemy01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Myles Turner has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/greenaj01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+A.J. Green has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/kuzmaky01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kyle Kuzma has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/trentga02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Gary Trent has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/simsje01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jericho Sims has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/harriga01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Gary Harris has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/porteke02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kevin Porter has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/a/antetgi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Giannis Antetokounmpo has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jacksan01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Andre Jackson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/n/nancepe01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Pete Nance has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/a/antetth01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Thanasis Antetokounmpo has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/thomaca02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Cam Thomas has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/diengou01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ousmane Dieng has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/princta02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Taurean Prince has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/a/antetal01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Alex Antetokounmpo has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/ryanco01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Cormac Ryan has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/wellsja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jaylen Wells has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/spencca01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Cam Spencer has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/cowarce01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Cedric Coward has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/caldwke01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kentavious Caldwell-Pope has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jacksgg01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+GG Jackson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/a/aldamsa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Santi Aldama has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/prospol01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Olivier-Maxence Prosper has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/smallja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Javon Small has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mashaja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jahmai Mashack has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/moranja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ja Morant has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hendrta01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Taylor Hendricks has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jeromty01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ty Jerome has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/e/edeyza01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Zach Edey has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/claytwa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Walter Clayton has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/pippesc02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Scotty Pippen has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/ruperra01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Rayan Rupert has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/clarkbr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Brandon Clarke has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/gibsota01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Taj Gibson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/maxeyty01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tyrese Maxey has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/grimequ01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Quentin Grimes has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/e/edgecvj01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+VJ Edgecombe has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/bonaad01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Adem Bona has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/walkeja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jabari Walker has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/barlodo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Dominick Barlow has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/drumman01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Andre Drummond has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/e/edwarju01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Justin Edwards has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/watfotr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Trendon Watford has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/o/oubreke01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kelly Oubre has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/e/embiijo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Joel Embiid has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/georgpa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Paul George has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/payneca01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Cameron Payne has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/broomjo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Johni Broome has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/lowryky01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kyle Lowry has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/terryda01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Dalen Terry has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/martity01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tyrese Martin has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/beaucma01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+MarJon Beauchamp has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jamessi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Sion James has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/knuepko01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kon Knueppel has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/bridgmi02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Miles Bridges has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/diabamo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Moussa Diabaté has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/ballla01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+LaMelo Ball has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/kalkbry01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ryan Kalkbrenner has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/millebr02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Brandon Miller has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/manntr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tre Mann has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/greenjo02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Josh Green has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/salauti01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tidjane Salaün has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/connapa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Pat Connaughton has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mcneeli01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Liam McNeeley has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/willigr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Grant Williams has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hallpj01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+PJ Hall has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/reevean01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Antonio Reeves has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/tillmxa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Xavier Tillman has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/whiteco01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Coby White has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/e/evbuoto01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tosan Evbuomwan has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/camarto01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Toumani Camara has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/clingdo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Donovan Clingan has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/cissosi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Sidy Cissoko has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/a/avdijde01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Deni Avdija has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/grantje01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jerami Grant has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/sharpsh01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Shaedon Sharpe has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/williro04/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Robert Williams has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/loveca01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Caleb Love has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/murrakr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kris Murray has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/y/yangha01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Yang Hansen has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/holidjr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jrue Holiday has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/weslebl01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Blake Wesley has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/krejcvi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Vít Krejčí has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hendesc01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Scoot Henderson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/thybuma01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Matisse Thybulle has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/lillada01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Damian Lillard has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/kentja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jayson Kent has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/y/youngch01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Chris Youngblood has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/huffja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jay Huff has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/walkeja02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jarace Walker has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/siakapa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Pascal Siakam has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/sheppbe01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ben Sheppard has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/n/nembhan01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Andrew Nembhard has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mccontj01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+T.J. McConnell has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/n/nesmiaa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Aaron Nesmith has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jacksqu01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Quenton Jackson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/f/furphjo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Johnny Furphy has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/pottemi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Micah Potter has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/peterta01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Taelon Peter has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/joneska03/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kam Jones has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/thompet01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ethan Thompson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/brownko01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kobe Brown has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/toppiob01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Obi Toppin has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/slawsja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jalen Slawson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/z/zubaciv01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ivica Zubac has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/halibty01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tyrese Haliburton has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/derozde01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+DeMar DeRozan has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/cliffni01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Nique Clifford has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/westbru01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Russell Westbrook has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/raynama01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Maxime Raynaud has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/a/achiupr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Precious Achiuwa has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/monkma01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Malik Monk has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/e/eubandr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Drew Eubanks has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/lavinza01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Zach LaVine has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/cardwdy01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Dylan Cardwell has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/cartede02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Devin Carter has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/murrake02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Keegan Murray has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/sabondo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Domantas Sabonis has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/plowdda01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Daeqwon Plowden has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mcderdo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Doug McDermott has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hayeski01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Killian Hayes has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/baldwpa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Patrick Baldwin has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/steveis01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Isaiah Stevens has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/huntede01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+De'Andre Hunter has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/whitede01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Derrick White has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/pritcpa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Payton Pritchard has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hausesa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Sam Hauser has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/q/quetane01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Neemias Queta has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/scheiba01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Baylor Scheierman has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/gonzahu01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Hugo González has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/brownja02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jaylen Brown has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/walshjo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jordan Walsh has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/garzalu01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Luka Garza has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/harpero02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ron Harper has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/william01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Amari Williams has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/v/vucevni01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Nikola Vučević has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/tatumja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jayson Tatum has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/tonjejo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+John Tonje has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/shulgma01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Max Shulga has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/johnske04/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Keldon Johnson has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/champju02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Julian Champagnie has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/barneha02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Harrison Barnes has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/f/foxde01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+De'Aaron Fox has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/castlst01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Stephon Castle has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/kornelu01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Luke Kornet has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/harpedy01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Dylan Harper has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/bryanca01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Carter Bryant has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/v/vassede01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Devin Vassell has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/wembavi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Victor Wembanyama has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/o/olynyke01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kelly Olynyk has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/waterli01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Lindy Waters has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mclaujo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jordan McLaughlin has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/biyombi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Bismack Biyombo has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jonesda06/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+David Jones has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/i/ingraha01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Harrison Ingram has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/plumlma01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Mason Plumlee has no games found
+URL was invalid, please give valid URL
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:20: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/milleem01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Emanuel Miller has no games found
+Player statistics have been updated for 2026-03-10
+[master 47dabd6] Daily stats update: 2026-03-11
+ 26 files changed, 416 insertions(+), 156 deletions(-)
+ create mode 100644 NBA_Statistics/2026_player_data/Keshon Gilbert.csv
+fatal: unable to access 'https://github.com/Evan-Johnson/NBA_Statistics.git/': Could not resolve host: github.com
+Done.

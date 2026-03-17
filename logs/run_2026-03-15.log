@@ -1,0 +1,305 @@
+=== NBA Daily Run: Sun Mar 15 09:04:06 MDT 2026 ===
+15
+Yesterday was: 2026-03-14
+https://www.basketball-reference.com/boxscores/?month=3&day=14&year=2026
+Daily teams were received and saved.
+MIL
+ATL
+WAS
+BOS
+SAC
+LAC
+DEN
+LAL
+Request failed (ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/teams/LAL/2026.html
+  warnings.warn("Invalid URL: " + url)
+ORL
+MIA
+BRK
+PHI
+Request failed (ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/teams/PHI/2026.html
+  warnings.warn("Invalid URL: " + url)
+CHO
+SAS
+Player reference was updated.
+Beginning player scraping...
+Ryan Rollins Complete
+Bobby Portis Complete
+Myles Turner Complete
+A.J. Green Complete
+Kyle Kuzma Complete
+Gary Trent Complete
+Jericho Sims Complete
+Gary Harris Complete
+Kevin Porter Complete
+Giannis Antetokounmpo Complete
+Andre Jackson Complete
+Pete Nance Complete
+Thanasis Antetokounmpo Complete
+Request failed (ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/thomaca02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Cam Thomas Complete
+Request failed (ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/diengou01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Ousmane Dieng Complete
+Taurean Prince Complete
+Alex Antetokounmpo Complete
+Cormac Ryan Complete
+Nickeil Alexander-Walker Complete
+Mouhamed Gueye Complete
+Dyson Daniels Complete
+Taking a long break...
+Request failed (ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/o/okongon01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Onyeka Okongwu Complete
+Jalen Johnson Complete
+Zaccharie Risacher Complete
+Keaton Wallace Complete
+Asa Newell Complete
+CJ McCollum Complete
+Corey Kispert Complete
+Jock Landale Complete
+Caleb Houstan Complete
+Gabe Vincent Complete
+Christian Koloko Complete
+Jonathan Kuminga Complete
+RayJ Dennis Complete
+Buddy Hield Complete
+Keshon Gilbert Complete
+Bub Carrington Complete
+Justin Champagnie Complete
+Will Riley Complete
+Tre Johnson Complete
+Kyshawn George Complete
+Bilal Coulibaly Complete
+Taking a long break...
+Alex Sarr Complete
+Tristan Vukcevic Complete
+Anthony Gill Complete
+Jamir Watkins Complete
+Sharife Cooper Complete
+Cam Whitmore Complete
+Jaden Hardy Complete
+Trae Young Complete
+Julian Reese Complete
+D'Angelo Russell Complete
+Anthony Davis Complete
+Payton Pritchard Complete
+Derrick White Complete
+Sam Hauser Complete
+Neemias Queta Complete
+Baylor Scheierman Complete
+Hugo González Complete
+Jaylen Brown Complete
+Jordan Walsh Complete
+Luka Garza Complete
+Ron Harper Complete
+Taking a long break...
+Amari Williams Complete
+Nikola Vučević Complete
+Request failed (ConnectionError: ('Connection aborted.', OSError(49, "Can't assign requested address"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/tatumja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jayson Tatum Complete
+Max Shulga Complete
+John Tonje Complete
+DeMar DeRozan Complete
+Nique Clifford Complete
+Russell Westbrook Complete
+Maxime Raynaud Complete
+Precious Achiuwa Complete
+Malik Monk Complete
+Drew Eubanks Complete
+Zach LaVine Complete
+Dylan Cardwell Complete
+Devin Carter Complete
+Keegan Murray Complete
+Domantas Sabonis Complete
+Daeqwon Plowden Complete
+Doug McDermott Complete
+Killian Hayes Complete
+Patrick Baldwin Complete
+Taking a long break...
+Isaiah Stevens Complete
+De'Andre Hunter Complete
+Request failed (ReadTimeout: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Read timed out. (read timeout=30)) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/dunnkr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Kris Dunn Complete
+Nicolas Batum Complete
+Brook Lopez Complete
+John Collins Complete
+Kobe Sanders Complete
+Kawhi Leonard Complete
+Jordan Miller Complete
+Cam Christie Complete
+Yanic Konan Complete
+Derrick Jones Complete
+Bogdan Bogdanović Complete
+Bennedict Mathurin Complete
+Isaiah Jackson Complete
+TyTy Washington Complete
+Darius Garland Complete
+Bradley Beal Complete
+Norchad Omier Complete
+Sean Pedulla Complete
+Bruce Brown Complete
+Taking a long break...
+Tim Hardaway Complete
+Jamal Murray Complete
+Jonas Valančiūnas Complete
+Spencer Jones Complete
+Nikola Jokić Complete
+Peyton Watson Complete
+Zeke Nnaji Complete
+Julian Strawther Complete
+Jalen Pickett Complete
+Cameron Johnson Complete
+Christian Braun Complete
+Aaron Gordon Complete
+DaRon Holmes Complete
+Curtis Jones Complete
+Tyus Jones Complete
+KJ Simpson Complete
+David Roddy Complete
+Jake LaRavia Complete
+Deandre Ayton Complete
+Marcus Smart Complete
+Luka Dončić Complete
+Taking a long break...
+Rui Hachimura Complete
+Jaxson Hayes Complete
+Jarred Vanderbilt Complete
+Dalton Knecht Complete
+LeBron James Complete
+Austin Reaves Complete
+Maxi Kleber Complete
+Bronny James Complete
+Nick Smith Complete
+Drew Timme Complete
+Adou Thiero Complete
+Luke Kennard Complete
+Kobe Bufkin Complete
+Chris Mañon Complete
+Desmond Bane Complete
+Wendell Carter Complete
+Tristan Da Complete
+Anthony Black Complete
+Paolo Banchero Complete
+Jonathan Isaac Complete
+Goga Bitadze Complete
+Taking a long break...
+Noah Penda Complete
+Jett Howard Complete
+Jase Richardson Complete
+Jalen Suggs Complete
+Franz Wagner Complete
+Moritz Wagner Complete
+Jamal Cain Complete
+Jevon Carter Complete
+Colin Castleton Complete
+Alex Morales Complete
+Dru Smith Complete
+Jaime Jaquez Complete
+Kel'el Ware Complete
+Bam Adebayo Complete
+Simone Fontecchio Complete
+Andrew Wiggins Complete
+Pelle Larsson Complete
+Davion Mitchell Complete
+Norman Powell Complete
+Nikola Jović Complete
+Kasparas Jakučionis Complete
+Taking a long break...
+Myron Gardner Complete
+Keshad Johnson Complete
+Tyler Herro Complete
+Jahmir Young Complete
+Vladislav Goldin Complete
+Trevor Keels Complete
+Terry Rozier Complete
+Day'Ron Sharpe Complete
+Noah Clowney Complete
+Nic Claxton Complete
+Terance Mann Complete
+Danny Wolf Complete
+Michael Porter Complete
+Egor Dёmin Complete
+Drake Powell Complete
+Ziaire Williams Complete
+Nolan Traoré Complete
+Jalen Wilson Complete
+Ben Saraf Complete
+E.J. Liddell Complete
+Tyson Etienne Complete
+Taking a long break...
+Ochai Agbaji Complete
+Josh Minott Complete
+Chaney Johnson Complete
+Tyrese Maxey Complete
+Quentin Grimes Complete
+VJ Edgecombe Complete
+Adem Bona Complete
+Dominick Barlow Complete
+Jabari Walker Complete
+Justin Edwards Complete
+Andre Drummond Complete
+Trendon Watford Complete
+Kelly Oubre Complete
+Joel Embiid Complete
+Paul George Complete
+Cameron Payne Complete
+Johni Broome Complete
+Kyle Lowry Complete
+Dalen Terry Complete
+Tyrese Martin Complete
+MarJon Beauchamp Complete
+Taking a long break...
+Sion James Complete
+Kon Knueppel Complete
+Miles Bridges Complete
+Moussa Diabaté Complete
+LaMelo Ball Complete
+Ryan Kalkbrenner Complete
+Brandon Miller Complete
+Josh Green Complete
+Tre Mann Complete
+Tidjane Salaün Complete
+Pat Connaughton Complete
+Liam McNeeley Complete
+Grant Williams Complete
+PJ Hall Complete
+Antonio Reeves Complete
+Coby White Complete
+Xavier Tillman Complete
+Tosan Evbuomwan Complete
+Keldon Johnson Complete
+Julian Champagnie Complete
+Harrison Barnes Complete
+Taking a long break...
+De'Aaron Fox Complete
+Stephon Castle Complete
+Luke Kornet Complete
+Carter Bryant Complete
+Dylan Harper Complete
+Devin Vassell Complete
+Victor Wembanyama Complete
+Kelly Olynyk Complete
+Lindy Waters Complete
+Jordan McLaughlin Complete
+Bismack Biyombo Complete
+David Jones Complete
+Harrison Ingram Complete
+Mason Plumlee Complete
+Emanuel Miller Complete
+Player statistics have been updated for 2026-03-14
+[master 6b52de2] Daily stats update: 2026-03-15
+ 149 files changed, 342 insertions(+), 264 deletions(-)
+To https://github.com/Evan-Johnson/NBA_Statistics.git
+   b26041d..6b52de2  master -> master
+Done.

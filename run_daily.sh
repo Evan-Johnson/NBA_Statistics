@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export GIT_TERMINAL_PROMPT=0
+
 LOG_DIR="/Users/evanjohnson/Documents/personal/NBA_Statistics/logs"
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/run_$(date +%Y-%m-%d).log"
@@ -8,8 +11,8 @@ echo "=== NBA Daily Run: $(date) ===" >> "$LOG_FILE"
 
 cd /Users/evanjohnson/Documents/personal/NBA_Statistics
 
-# Run the scraper
-/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 NBA_Statistics/DailyController.py >> "$LOG_FILE" 2>&1
+# Run the scraper (-u = unbuffered stdout so print statements log immediately)
+/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 -u NBA_Statistics/DailyController.py >> "$LOG_FILE" 2>&1
 
 if [ $? -ne 0 ]; then
     echo "Script failed, skipping git push." >> "$LOG_FILE"
