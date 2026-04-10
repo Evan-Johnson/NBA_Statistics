@@ -1,0 +1,406 @@
+=== NBA Daily Run: Mon Mar 30 10:00:00 CDT 2026 ===
+30
+Yesterday was: 2026-03-29
+https://www.basketball-reference.com/boxscores/?month=3&day=29&year=2026
+Daily teams were received and saved.
+SAC
+BRK
+BOS
+CHO
+GSW
+DEN
+MIA
+IND
+LAC
+MIL
+HOU
+NOP
+NYK
+OKC
+WAS
+POR
+ORL
+TOR
+Player reference was updated.
+Beginning player scraping...
+DeMar DeRozan Complete
+Nique Clifford Complete
+Maxime Raynaud Complete
+Precious Achiuwa Complete
+Russell Westbrook Complete
+Malik Monk Complete
+Drew Eubanks Complete
+Zach LaVine Complete
+Dylan Cardwell Complete
+Devin Carter Complete
+Daeqwon Plowden Complete
+Keegan Murray Complete
+Doug McDermott Complete
+Domantas Sabonis Complete
+Killian Hayes Complete
+Patrick Baldwin Complete
+Isaiah Stevens Complete
+De'Andre Hunter Complete
+Nic Claxton Complete
+Noah Clowney Complete
+Day'Ron Sharpe Complete
+Taking a long break...
+Terance Mann Complete
+Danny Wolf Complete
+Drake Powell Complete
+Ziaire Williams Complete
+Michael Porter Complete
+Egor Dёmin Complete
+Nolan Traoré Complete
+Jalen Wilson Complete
+Ben Saraf Complete
+E.J. Liddell Complete
+Ochai Agbaji Complete
+Tyson Etienne Complete
+Josh Minott Complete
+Chaney Johnson Complete
+Malachi Smith Complete
+Payton Pritchard Complete
+Sam Hauser Complete
+Derrick White Complete
+Neemias Queta Complete
+Baylor Scheierman Complete
+Hugo González Complete
+Taking a long break...
+Request failed (ReadTimeout: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Read timed out. (read timeout=30)) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/brownja02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Jaylen Brown Complete
+Luka Garza Complete
+Jordan Walsh Complete
+Ron Harper Complete
+Amari Williams Complete
+Nikola Vučević Complete
+Jayson Tatum Complete
+Max Shulga Complete
+John Tonje Complete
+Charles Bassey Complete
+Sion James Complete
+Kon Knueppel Complete
+Miles Bridges Complete
+Moussa Diabaté Complete
+LaMelo Ball Complete
+Ryan Kalkbrenner Complete
+Brandon Miller Complete
+Josh Green Complete
+Tre Mann Complete
+Tidjane Salaün Complete
+Pat Connaughton Complete
+Taking a long break...
+Grant Williams Complete
+Liam McNeeley Complete
+Coby White Complete
+PJ Hall Complete
+Xavier Tillman Complete
+Antonio Reeves Complete
+Tosan Evbuomwan Complete
+Brandin Podziemski Complete
+Quinten Post Complete
+Gary Payton Complete
+Gui Santos Complete
+Will Richard Complete
+Draymond Green Complete
+Moses Moody Complete
+Pat Spencer Complete
+De'Anthony Melton Complete
+Al Horford Complete
+Stephen Curry Complete
+Jimmy Butler Complete
+Malevy Leons Complete
+LJ Cryer Complete
+Taking a long break...
+Kristaps Porziņģis Complete
+Nate Williams Complete
+Omer Yurtseven Complete
+Seth Curry Complete
+Bruce Brown Complete
+Tim Hardaway Complete
+Jamal Murray Complete
+Spencer Jones Complete
+Nikola Jokić Complete
+Jonas Valančiūnas Complete
+Peyton Watson Complete
+Julian Strawther Complete
+Cameron Johnson Complete
+Request failed (ReadTimeout: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Read timed out. (read timeout=30)) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/n/nnajize01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Zeke Nnaji Complete
+Jalen Pickett Complete
+Christian Braun Complete
+Aaron Gordon Complete
+DaRon Holmes Complete
+Tyus Jones Complete
+Curtis Jones Complete
+KJ Simpson Complete
+Taking a long break...
+David Roddy Complete
+Kel'el Ware Complete
+Jaime Jaquez Complete
+Dru Smith Complete
+Bam Adebayo Complete
+Simone Fontecchio Complete
+Request failed (ReadTimeout: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Read timed out. (read timeout=30)) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/larsspe01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/l/larsspe01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1071ca350>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Pelle Larsson has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/mitchda01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1071cbb10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mitchda01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/mitchda01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1071c8050>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Davion Mitchell has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/w/wiggian01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1071ca850>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/wiggian01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/w/wiggian01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1071cafd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Andrew Wiggins has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/p/powelno01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1071cbed0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/powelno01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/p/powelno01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1071cb4d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Norman Powell has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/j/jakucka01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1071cbd90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jakucka01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/j/jakucka01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1071c9d10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Kasparas Jakučionis has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Nikola Jović Complete
+Myron Gardner Complete
+Tyler Herro Complete
+Keshad Johnson Complete
+Jahmir Young Complete
+Vladislav Goldin Complete
+Trevor Keels Complete
+Terry Rozier Complete
+Jay Huff Complete
+Jarace Walker Complete
+Ben Sheppard Complete
+Pascal Siakam Complete
+Andrew Nembhard Complete
+T.J. McConnell Complete
+Aaron Nesmith Complete
+Taking a long break...
+Quenton Jackson Complete
+Micah Potter Complete
+Johnny Furphy Complete
+Taelon Peter Complete
+Kam Jones Complete
+Ethan Thompson Complete
+Kobe Brown Complete
+Obi Toppin Complete
+Jalen Slawson Complete
+Ivica Zubac Complete
+Tyrese Haliburton Complete
+Kris Dunn Complete
+Nicolas Batum Complete
+Brook Lopez Complete
+John Collins Complete
+Kobe Sanders Complete
+Kawhi Leonard Complete
+Jordan Miller Complete
+Cam Christie Complete
+Derrick Jones Complete
+Yanic Konan Complete
+Taking a long break...
+Bogdan Bogdanović Complete
+Bennedict Mathurin Complete
+Isaiah Jackson Complete
+Darius Garland Complete
+TyTy Washington Complete
+Bradley Beal Complete
+Sean Pedulla Complete
+Norchad Omier Complete
+Ryan Rollins Complete
+A.J. Green Complete
+Bobby Portis Complete
+Myles Turner Complete
+Kyle Kuzma Complete
+Gary Trent Complete
+Jericho Sims Complete
+Gary Harris Complete
+Pete Nance Complete
+Andre Jackson Complete
+Kevin Porter Complete
+Giannis Antetokounmpo Complete
+Thanasis Antetokounmpo Complete
+Taking a long break...
+Ousmane Dieng Complete
+Taurean Prince Complete
+Cormac Ryan Complete
+Alex Antetokounmpo Complete
+Reed Sheppard Complete
+Amen Thompson Complete
+Kevin Durant Complete
+Jabari Smith Complete
+Josh Okogie Complete
+Clint Capela Complete
+Alperen Şengün Complete
+Tari Eason Complete
+Aaron Holiday Complete
+Jae'Sean Tate Complete
+Dorian Finney-Smith Complete
+Steven Adams Complete
+Jeff Green Complete
+JD Davison Complete
+Isaiah Crawford Complete
+Fred VanVleet Complete
+Tristen Newton Complete
+Taking a long break...
+Jeremiah Fears Complete
+Derik Queen Complete
+Saddiq Bey Complete
+Trey Murphy Complete
+Yves Missi Complete
+Karlo Matković Complete
+Zion Williamson Complete
+Micah Peavy Complete
+Herbert Jones Complete
+Jordan Hawkins Complete
+Bryce McGowens Complete
+Jordan Poole Complete
+Kevon Looney Complete
+Dejounte Murray Complete
+DeAndre Jordan Complete
+Trey Alexander Complete
+Hunter Dickinson Complete
+Josh Oduro Complete
+Mikal Bridges Complete
+Karl-Anthony Towns Complete
+Jalen Brunson Complete
+Taking a long break...
+Jordan Clarkson Complete
+Mohamed Diawara Complete
+OG Anunoby Complete
+Josh Hart Complete
+Tyler Kolek Complete
+Mitchell Robinson Complete
+Ariel Hukporti Complete
+Landry Shamet Complete
+Miles McBride Complete
+Pacôme Dadiet Complete
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+Jose Alvarado Complete
+Kevin McCullar Complete
+Jeremy Sochan Complete
+Trey Jemison Complete
+Dillon Jones Complete
+Cason Wallace Complete
+Isaiah Joe Complete
+Chet Holmgren Complete
+Shai Gilgeous-Alexander Complete
+Luguentz Dort Complete
+Jaylin Williams Complete
+Taking a long break...
+Aaron Wiggins Complete
+Ajay Mitchell Complete
+Alex Caruso Complete
+Kenrich Williams Complete
+Isaiah Hartenstein Complete
+Branden Carlson Complete
+Brooks Barnhizer Complete
+Jalen Williams Complete
+Jared McCain Complete
+Nikola Topić Complete
+Payton Sandfort Complete
+Thomas Sorber Complete
+Bub Carrington Complete
+Will Riley Complete
+Justin Champagnie Complete
+Tre Johnson Complete
+Bilal Coulibaly Complete
+Alex Sarr Complete
+Kyshawn George Complete
+Tristan Vukcevic Complete
+Anthony Gill Complete
+Taking a long break...
+Jamir Watkins Complete
+Sharife Cooper Complete
+Cam Whitmore Complete
+Jaden Hardy Complete
+Julian Reese Complete
+Trae Young Complete
+D'Angelo Russell Complete
+Anthony Davis Complete
+Toumani Camara Complete
+Donovan Clingan Complete
+Sidy Cissoko Complete
+Deni Avdija Complete
+Jerami Grant Complete
+Robert Williams Complete
+Kris Murray Complete
+Shaedon Sharpe Complete
+Jrue Holiday Complete
+Caleb Love Complete
+Yang Hansen Complete
+Blake Wesley Complete
+Scoot Henderson Complete
+Taking a long break...
+Matisse Thybulle Complete
+Vít Krejčí Complete
+Jayson Kent Complete
+Chris Youngblood Complete
+Damian Lillard Complete
+Desmond Bane Complete
+Wendell Carter Complete
+Tristan Da Complete
+Paolo Banchero Complete
+Anthony Black Complete
+Goga Bitadze Complete
+Noah Penda Complete
+Jett Howard Complete
+Jonathan Isaac Complete
+Jalen Suggs Complete
+Jase Richardson Complete
+Moritz Wagner Complete
+Jamal Cain Complete
+Franz Wagner Complete
+Jevon Carter Complete
+Colin Castleton Complete
+Taking a long break...
+Alex Morales Complete
+Jamal Shead Complete
+Scottie Barnes Complete
+Sandro Mamukelashvili Complete
+Brandon Ingram Complete
+Gradey Dick Complete
+Immanuel Quickley Complete
+Ja'Kobe Walter Complete
+Jamison Battle Complete
+RJ Barrett Complete
+Collin Murray-Boyles Complete
+Jakob Poeltl Complete
+Jonathan Mogbo Complete
+Garrett Temple Complete
+Alijah Martin Complete
+A.J. Lawson Complete
+Trayce Jackson-Davis Complete
+Markelle Fultz Complete
+Chucky Hepburn Complete
+Player statistics have been updated for 2026-03-29
+[master f1320fb] Daily stats update: 2026-03-30
+ 201 files changed, 483 insertions(+), 173 deletions(-)
+To https://github.com/Evan-Johnson/NBA_Statistics.git
+   3ec73c7..f1320fb  master -> master
+Done.

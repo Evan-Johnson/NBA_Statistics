@@ -1,0 +1,13 @@
+=== NBA Daily Run: Tue Mar 24 09:09:33 MDT 2026 ===
+24
+Yesterday was: 2026-03-23
+https://www.basketball-reference.com/boxscores/?month=3&day=23&year=2026
+Daily teams were received and saved.
+Player reference was updated.
+Beginning player scraping...
+Player statistics have been updated for 2026-03-23
+[master 1076651] Daily stats update: 2026-03-24
+ 2 files changed, 1 insertion(+), 186 deletions(-)
+To https://github.com/Evan-Johnson/NBA_Statistics.git
+   22fe1e6..1076651  master -> master
+Done.

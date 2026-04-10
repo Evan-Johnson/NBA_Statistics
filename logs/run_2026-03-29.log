@@ -1,0 +1,564 @@
+=== NBA Daily Run: Sun Mar 29 10:03:41 CDT 2026 ===
+29
+Yesterday was: 2026-03-28
+https://www.basketball-reference.com/boxscores/?month=3&day=28&year=2026
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /boxscores/?month=3&day=28&year=2026 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108f94d70>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/boxscores/?month=3&day=28&year=2026
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /boxscores/?month=3&day=28&year=2026 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x109021e50>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Traceback (most recent call last):
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/DailyController.py", line 25, in <module>
+    Daily_Running()
+    ~~~~~~~~~~~~~^^
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/DailyController.py", line 11, in Daily_Running
+    ds.Get_Daily_Teams(days_before)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Daily_Scraper.py", line 26, in Get_Daily_Teams
+    raise RuntimeError("Failed to fetch boxscores page: " + url)
+RuntimeError: Failed to fetch boxscores page: https://www.basketball-reference.com/boxscores/?month=3&day=28&year=2026
+Script failed, skipping git push.
+=== NBA Daily Run: Sun Mar 29 12:08:25 CDT 2026 ===
+29
+Yesterday was: 2026-03-28
+https://www.basketball-reference.com/boxscores/?month=3&day=28&year=2026
+Daily teams were received and saved.
+SAC
+ATL
+PHI
+CHO
+CHI
+MEM
+SAS
+MIL
+DET
+MIN
+UTA
+PHO
+Player reference was updated.
+Beginning player scraping...
+DeMar DeRozan Complete
+Nique Clifford Complete
+Maxime Raynaud Complete
+Precious Achiuwa Complete
+Russell Westbrook Complete
+Malik Monk Complete
+Drew Eubanks Complete
+Zach LaVine Complete
+Dylan Cardwell Complete
+Devin Carter Complete
+Daeqwon Plowden Complete
+Keegan Murray Complete
+Doug McDermott Complete
+Domantas Sabonis Complete
+Killian Hayes Complete
+Patrick Baldwin Complete
+Isaiah Stevens Complete
+De'Andre Hunter Complete
+Nickeil Alexander-Walker Complete
+Mouhamed Gueye Complete
+Dyson Daniels Complete
+Taking a long break...
+Onyeka Okongwu Complete
+Jalen Johnson Complete
+Zaccharie Risacher Complete
+Keaton Wallace Complete
+Asa Newell Complete
+CJ McCollum Complete
+Corey Kispert Complete
+Jock Landale Complete
+Gabe Vincent Complete
+Caleb Houstan Complete
+Christian Koloko Complete
+Jonathan Kuminga Complete
+Buddy Hield Complete
+RayJ Dennis Complete
+Keshon Gilbert Complete
+VJ Edgecombe Complete
+Quentin Grimes Complete
+Adem Bona Complete
+Dominick Barlow Complete
+Tyrese Maxey Complete
+Jabari Walker Complete
+Taking a long break...
+Justin Edwards Complete
+Andre Drummond Complete
+Trendon Watford Complete
+Kelly Oubre Complete
+Joel Embiid Complete
+Paul George Complete
+Cameron Payne Complete
+Dalen Terry Complete
+Kyle Lowry Complete
+MarJon Beauchamp Complete
+Johni Broome Complete
+Request failed (ReadTimeout: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Read timed out. (read timeout=30)) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/martity01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Tyrese Martin Complete
+Sion James Complete
+Kon Knueppel Complete
+Miles Bridges Complete
+Moussa Diabaté Complete
+LaMelo Ball Complete
+Ryan Kalkbrenner Complete
+Brandon Miller Complete
+Josh Green Complete
+Tre Mann Complete
+Taking a long break...
+Tidjane Salaün Complete
+Pat Connaughton Complete
+Grant Williams Complete
+Liam McNeeley Complete
+Coby White Complete
+PJ Hall Complete
+Xavier Tillman Complete
+Antonio Reeves Complete
+Tosan Evbuomwan Complete
+Matas Buzelis Complete
+Patrick Williams Complete
+Isaac Okoro Complete
+Tre Jones Complete
+Jalen Smith Complete
+Josh Giddey Complete
+Lachlan Olbrich Complete
+Rob Dillingham Complete
+Guerschon Yabusele Complete
+Nick Richards Complete
+Leonard Miller Complete
+Collin Sexton Complete
+Taking a long break...
+Yuki Kawamura Complete
+Zach Collins Complete
+Anfernee Simons Complete
+Jaden Ivey Complete
+Noa Essengue Complete
+Mac McClung Complete
+Jaylen Wells Complete
+Cam Spencer Complete
+Cedric Coward Complete
+GG Jackson Complete
+Kentavious Caldwell-Pope Complete
+Olivier-Maxence Prosper Complete
+Santi Aldama Complete
+Javon Small Complete
+Jahmai Mashack Complete
+Taylor Hendricks Complete
+Ja Morant Complete
+Walter Clayton Complete
+Ty Jerome Complete
+Rayan Rupert Complete
+Zach Edey Complete
+Taking a long break...
+Scotty Pippen Complete
+Tyler Burton Complete
+DeJon Jarreau Complete
+Taj Gibson Complete
+Brandon Clarke Complete
+Keldon Johnson Complete
+Julian Champagnie Complete
+Harrison Barnes Complete
+De'Aaron Fox Complete
+Carter Bryant Complete
+Stephon Castle Complete
+Luke Kornet Complete
+Dylan Harper Complete
+Victor Wembanyama Complete
+Devin Vassell Complete
+Kelly Olynyk Complete
+Jordan McLaughlin Complete
+Lindy Waters Complete
+Bismack Biyombo Complete
+David Jones Complete
+Harrison Ingram Complete
+Taking a long break...
+Mason Plumlee Complete
+Emanuel Miller Complete
+Ryan Rollins Complete
+A.J. Green Complete
+Bobby Portis Complete
+Myles Turner Complete
+Kyle Kuzma Complete
+Gary Trent Complete
+Jericho Sims Complete
+Gary Harris Complete
+Pete Nance Complete
+Andre Jackson Complete
+Kevin Porter Complete
+Giannis Antetokounmpo Complete
+Thanasis Antetokounmpo Complete
+Ousmane Dieng Complete
+Taurean Prince Complete
+Cormac Ryan Complete
+Alex Antetokounmpo Complete
+Javonte Green Complete
+Duncan Robinson Complete
+Taking a long break...
+Request failed (ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hollaro01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/hollaro01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690410>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Ron Holland has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/t/thompau01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690550>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/thompau01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/t/thompau01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108691310>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Ausar Thompson has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/d/durenja01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1086907d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/durenja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/d/durenja01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690e10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Jalen Duren has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/j/jenkida01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51a90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jenkida01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/j/jenkida01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50e10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Daniss Jenkins has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/c/cunnica01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51d10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/cunnica01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/c/cunnica01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b520d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Cade Cunningham has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/harrito02/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51f90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/harrito02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/harrito02/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50a50>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Tobias Harris has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/r/reedpa01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50550>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/reedpa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/r/reedpa01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50b90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Paul Reed has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/s/stewais01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52c10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/stewais01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/s/stewais01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b53110>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Isaiah Stewart has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/l/leverca01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b534d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/leverca01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/l/leverca01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690e10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Caris LeVert has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/s/sassema01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1086920d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/sassema01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/s/sassema01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108691310>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Marcus Sasser has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/l/laniech01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108693390>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/laniech01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/l/laniech01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690190>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Chaz Lanier has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/huertke01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108691f90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/huertke01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/huertke01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108693d90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Kevin Huerter has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/k/klintbo01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b53110>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/klintbo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/k/klintbo01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52c10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Bobi Klintman has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/s/smithto05/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50b90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/smithto05/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/s/smithto05/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50550>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Tolu Smith has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/moorewe01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50a50>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/moorewe01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/moorewe01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51f90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Wendell Moore has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/j/jonesis01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b520d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jonesis01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/j/jonesis01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51d10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Isaac Jones has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/r/randlju01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50e10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/randlju01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/r/randlju01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51bd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Julius Randle has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/d/divindo01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b539d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/divindo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/d/divindo01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108691bd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Donte DiVincenzo has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/mcdanja02/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108691f90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mcdanja02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/mcdanja02/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690410>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Jaden McDaniels has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/r/reidna01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108693390>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/r/reidna01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/r/reidna01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108691310>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Naz Reid has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/g/goberru01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1086920d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/goberru01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/g/goberru01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108692d50>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Rudy Gobert has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/hylanbo01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51bd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hylanbo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/hylanbo01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50e10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Bones Hyland has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/c/clarkja02/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51d10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/clarkja02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/c/clarkja02/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b520d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Jaylen Clark has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/e/edwaran01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51090>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/e/edwaran01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/e/edwaran01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52210>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Anthony Edwards has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/c/conlemi01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50690>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/conlemi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/c/conlemi01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50050>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Mike Conley has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/s/shannte01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52c10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/shannte01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/s/shannte01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b53250>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Terrence Shannon has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/b/berinjo01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b534d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/berinjo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/b/berinjo01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108692d50>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Joan Beringer has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/i/inglejo01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108692990>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/i/inglejo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/i/inglejo01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108692ad0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Joe Ingles has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/d/dosunay01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690190>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/dosunay01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/d/dosunay01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690550>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Ayo Dosunmu has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/a/anderky01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108693d90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/a/anderky01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/a/anderky01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108693750>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Kyle Anderson has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/p/phillju01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b53250>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/phillju01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/p/phillju01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52c10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Julian Phillips has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/z/zikarro01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52e90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/z/zikarro01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/z/zikarro01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50190>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Rocco Zikarsky has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/p/pullizy01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50cd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/p/pullizy01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/p/pullizy01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51e50>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Zyon Pullin has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/f/freemen01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52710>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/f/freemen01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/f/freemen01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52350>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Enrique Freeman has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/f/filipky01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52990>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/f/filipky01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/f/filipky01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51bd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Kyle Filipowski has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/s/sensabr01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b53ed0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/s/sensabr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/s/sensabr01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b53890>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Brice Sensabaugh has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/b/baileac01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b53750>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/baileac01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/b/baileac01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50e10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Ace Bailey has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/w/willico04/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51d10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/willico04/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/w/willico04/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b520d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Cody Williams has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/c/colliis01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51090>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/colliis01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/c/colliis01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52210>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Isaiah Collier has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/g/georgke01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50690>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/georgke01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/g/georgke01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50050>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Keyonte George has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/mykhasv01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52fd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mykhasv01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/mykhasv01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108693610>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Svi Mykhailiuk has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/markkla01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108691bd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/markkla01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/markkla01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690cd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Lauri Markkanen has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/n/nurkiju01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690410>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/n/nurkiju01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/n/nurkiju01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1086925d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Jusuf Nurkić has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/l/loveke01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108691310>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/loveke01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/l/loveke01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1086920d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Kevin Love has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/harklej01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108692210>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/harklej01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/harklej01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108692d50>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Elijah Harkless has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/t/tshieos01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1086907d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/t/tshieos01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/t/tshieos01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1086925d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Oscar Tshiebwe has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/k/konchjo01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108693390>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/konchjo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/k/konchjo01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690cd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+John Konchar has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/hinsobl01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108691bd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/hinsobl01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/hinsobl01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690050>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Blake Hinson has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/mbengbe01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b53250>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/mbengbe01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/mbengbe01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52e90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Bez Mbeng has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/c/chandke01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50cd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/chandke01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/c/chandke01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50190>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Kennedy Chandler has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/k/kesslwa01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50a50>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/k/kesslwa01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/k/kesslwa01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b520d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Walker Kessler has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/j/jacksja02/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51310>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jacksja02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/j/jacksja02/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50e10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Jaren Jackson has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/i/ighodos01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b53750>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/i/ighodos01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/i/ighodos01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b525d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Oso Ighodaro has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/g/gilleco01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x110f08910>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/gilleco01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/g/gilleco01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b525d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Collin Gillespie has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/o/onealro01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b53750>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/o/onealro01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/o/onealro01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52490>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Royce O'Neale has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/g/goodwjo01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51d10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/goodwjo01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/g/goodwjo01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52710>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Jordan Goodwin has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/d/dunnry01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51090>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/d/dunnry01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/d/dunnry01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52210>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Ryan Dunn has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/b/bookede01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50cd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/bookede01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/b/bookede01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50050>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Devin Booker has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/w/willima07/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52fd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/w/willima07/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/w/willima07/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690050>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Mark Williams has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/b/brookdi01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108691bd0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/brookdi01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/b/brookdi01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108693890>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Dillon Brooks has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/f/flemira01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690410>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/f/flemira01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/f/flemira01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108690190>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Rasheer Fleming has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/a/allengr01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108691310>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/a/allengr01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/a/allengr01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x110f087d0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Grayson Allen has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/b/bouyeja01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x110f08e10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/bouyeja01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/b/bouyeja01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108692350>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Jamaree Bouyea has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/maluakh01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108692c10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/maluakh01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/maluakh01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108693390>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Khaman Maluach has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/l/liveris01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108693d90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/l/liveris01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/l/liveris01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108692ad0>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Isaiah Livers has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/g/greenja05/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108692850>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/greenja05/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/g/greenja05/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52e90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Jalen Green has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/c/coffeam01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52d50>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/coffeam01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/c/coffeam01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50190>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Amir Coffey has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/b/breako01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50b90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/b/breako01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/b/breako01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51f90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Koby Brea has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/highsha01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b50550>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/highsha01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/highsha01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51310>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Haywood Highsmith has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/huntlcj01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b52990>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/h/huntlcj01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/h/huntlcj01/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112b51e50>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+CJ Huntley has no games found
+Rate limit detected (5 consecutive failures) — taking a 10-minute break...
+Player statistics have been updated for 2026-03-29
+[master 25efdb1] Daily stats update: 2026-03-30
+ 95 files changed, 381 insertions(+), 342 deletions(-)
+fatal: unable to access 'https://github.com/Evan-Johnson/NBA_Statistics.git/': Could not resolve host: github.com
+Done.

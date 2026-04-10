@@ -1,0 +1,536 @@
+=== NBA Daily Run: Fri Mar 20 09:03:45 MDT 2026 ===
+20
+Yesterday was: 2026-03-19
+https://www.basketball-reference.com/boxscores/?month=3&day=19&year=2026
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /boxscores/?month=3&day=19&year=2026 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10869cd70>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/boxscores/?month=3&day=19&year=2026
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /boxscores/?month=3&day=19&year=2026 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1086e5a90>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Traceback (most recent call last):
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/DailyController.py", line 25, in <module>
+    Daily_Running()
+    ~~~~~~~~~~~~~^^
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/DailyController.py", line 11, in Daily_Running
+    ds.Get_Daily_Teams(days_before)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Daily_Scraper.py", line 26, in Get_Daily_Teams
+    raise RuntimeError("Failed to fetch boxscores page: " + url)
+RuntimeError: Failed to fetch boxscores page: https://www.basketball-reference.com/boxscores/?month=3&day=19&year=2026
+Script failed, skipping git push.
+=== NBA Daily Run: Fri Mar 20 10:45:36 MDT 2026 ===
+20
+Yesterday was: 2026-03-19
+https://www.basketball-reference.com/boxscores/?month=3&day=19&year=2026
+Daily teams were received and saved.
+CLE
+CHI
+ORL
+CHO
+LAL
+MIA
+LAC
+NOP
+PHI
+SAC
+PHO
+SAS
+MIL
+UTA
+DET
+WAS
+Player reference was updated.
+Beginning player scraping...
+Jaylon Tyson Complete
+Donovan Mitchell Complete
+Craig Porter Complete
+Evan Mobley Complete
+Dean Wade Complete
+Nae'Qwan Tomlin Complete
+Thomas Bryant Complete
+Jarrett Allen Complete
+Sam Merrill Complete
+Tyrese Proctor Complete
+Larry Nance Complete
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   39 2026-01-11 SAC   HOU W, 111-98 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   40 2026-01-12 SAC   LAL W, 124-112 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+ 31   41 2026-01-14 SAC   NYK W, 112-101 Suspended 
+Dennis Schröder Complete
+Keon Ellis Complete
+James Harden Complete
+Tristan Enaruna Complete
+Max Strus Complete
+Riley Minix Complete
+Olivier Sarr Complete
+Matas Buzelis Complete
+Patrick Williams Complete
+Isaac Okoro Complete
+Taking a long break...
+Tre Jones Complete
+Jalen Smith Complete
+Josh Giddey Complete
+Lachlan Olbrich Complete
+Guerschon Yabusele Complete
+Nick Richards Complete
+Rob Dillingham Complete
+Leonard Miller Complete
+Collin Sexton Complete
+Yuki Kawamura Complete
+Zach Collins Complete
+Anfernee Simons Complete
+Jaden Ivey Complete
+Noa Essengue Complete
+Mac McClung Complete
+Desmond Bane Complete
+Wendell Carter Complete
+Tristan Da Complete
+Anthony Black Complete
+Paolo Banchero Complete
+Jonathan Isaac Complete
+Taking a long break...
+Goga Bitadze Complete
+Noah Penda Complete
+Jett Howard Complete
+Jalen Suggs Complete
+Jase Richardson Complete
+Moritz Wagner Complete
+Franz Wagner Complete
+Jamal Cain Complete
+Jevon Carter Complete
+Colin Castleton Complete
+Alex Morales Complete
+Sion James Complete
+Kon Knueppel Complete
+Miles Bridges Complete
+Moussa Diabaté Complete
+LaMelo Ball Complete
+Ryan Kalkbrenner Complete
+Request failed (ReadTimeout: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Read timed out. (read timeout=30)) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/m/millebr02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Retry also failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/m/millebr02/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1091efb10>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)")))
+Brandon Miller has no games found
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /players/g/greenjo02/gamelog/2026/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1091ef250>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/g/greenjo02/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Josh Green Complete
+Tre Mann Complete
+Tidjane Salaün Complete
+Pat Connaughton Complete
+Taking a long break...
+Liam McNeeley Complete
+Grant Williams Complete
+PJ Hall Complete
+Coby White Complete
+Xavier Tillman Complete
+Antonio Reeves Complete
+Tosan Evbuomwan Complete
+Jake LaRavia Complete
+Deandre Ayton Complete
+Marcus Smart Complete
+Luka Dončić Complete
+Rui Hachimura Complete
+Jaxson Hayes Complete
+Jarred Vanderbilt Complete
+LeBron James Complete
+Dalton Knecht Complete
+Austin Reaves Complete
+Maxi Kleber Complete
+Bronny James Complete
+Nick Smith Complete
+Drew Timme Complete
+Taking a long break...
+Luke Kennard Complete
+Adou Thiero Complete
+Kobe Bufkin Complete
+Chris Mañon Complete
+Dru Smith Complete
+Kel'el Ware Complete
+Jaime Jaquez Complete
+Simone Fontecchio Complete
+Bam Adebayo Complete
+Pelle Larsson Complete
+Davion Mitchell Complete
+Andrew Wiggins Complete
+Norman Powell Complete
+Nikola Jović Complete
+Kasparas Jakučionis Complete
+Myron Gardner Complete
+Keshad Johnson Complete
+Tyler Herro Complete
+Jahmir Young Complete
+Vladislav Goldin Complete
+Trevor Keels Complete
+Taking a long break...
+Terry Rozier Complete
+Kris Dunn Complete
+Nicolas Batum Complete
+Brook Lopez Complete
+John Collins Complete
+Kobe Sanders Complete
+Kawhi Leonard Complete
+Jordan Miller Complete
+Cam Christie Complete
+Yanic Konan Complete
+Derrick Jones Complete
+Bogdan Bogdanović Complete
+Bennedict Mathurin Complete
+Isaiah Jackson Complete
+TyTy Washington Complete
+Darius Garland Complete
+Bradley Beal Complete
+Norchad Omier Complete
+Sean Pedulla Complete
+Jeremiah Fears Complete
+Derik Queen Complete
+Taking a long break...
+Saddiq Bey Complete
+Trey Murphy Complete
+Yves Missi Complete
+Karlo Matković Complete
+Zion Williamson Complete
+Micah Peavy Complete
+Herbert Jones Complete
+Jordan Hawkins Complete
+Bryce McGowens Complete
+Jordan Poole Complete
+Kevon Looney Complete
+DeAndre Jordan Complete
+Dejounte Murray Complete
+Trey Alexander Complete
+Hunter Dickinson Complete
+Josh Oduro Complete
+Quentin Grimes Complete
+VJ Edgecombe Complete
+Tyrese Maxey Complete
+Adem Bona Complete
+Dominick Barlow Complete
+Taking a long break...
+Jabari Walker Complete
+Justin Edwards Complete
+Andre Drummond Complete
+Trendon Watford Complete
+Kelly Oubre Complete
+Joel Embiid Complete
+Paul George Complete
+Cameron Payne Complete
+Kyle Lowry Complete
+Johni Broome Complete
+Dalen Terry Complete
+MarJon Beauchamp Complete
+Tyrese Martin Complete
+DeMar DeRozan Complete
+Nique Clifford Complete
+Russell Westbrook Complete
+Maxime Raynaud Complete
+Precious Achiuwa Complete
+Malik Monk Complete
+Drew Eubanks Complete
+Zach LaVine Complete
+Taking a long break...
+Request failed (ReadTimeout: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Read timed out. (read timeout=30)) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/c/cardwdy01/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+Dylan Cardwell Complete
+Devin Carter Complete
+Keegan Murray Complete
+Daeqwon Plowden Complete
+Domantas Sabonis Complete
+Doug McDermott Complete
+Killian Hayes Complete
+Patrick Baldwin Complete
+Isaiah Stevens Complete
+De'Andre Hunter Complete
+Oso Ighodaro Complete
+Collin Gillespie Complete
+Royce O'Neale Complete
+Ryan Dunn Complete
+Jordan Goodwin Complete
+Mark Williams Complete
+Devin Booker Complete
+Dillon Brooks Complete
+Grayson Allen Complete
+Rasheer Fleming Complete
+Jamaree Bouyea Complete
+Taking a long break...
+Khaman Maluach Complete
+Isaiah Livers Complete
+Jalen Green Complete
+Amir Coffey Complete
+Haywood Highsmith Complete
+Koby Brea Complete
+CJ Huntley Complete
+Keldon Johnson Complete
+Julian Champagnie Complete
+Harrison Barnes Complete
+De'Aaron Fox Complete
+Stephon Castle Complete
+Luke Kornet Complete
+Carter Bryant Complete
+Dylan Harper Complete
+Devin Vassell Complete
+Victor Wembanyama Complete
+Kelly Olynyk Complete
+Jordan McLaughlin Complete
+Lindy Waters Complete
+Bismack Biyombo Complete
+Taking a long break...
+Request failed (ReadTimeout: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Read timed out. (read timeout=30)) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/players/j/jonesda06/gamelog/2026/
+  warnings.warn("Invalid URL: " + url)
+David Jones Complete
+Harrison Ingram Complete
+Mason Plumlee Complete
+Emanuel Miller Complete
+Ryan Rollins Complete
+Bobby Portis Complete
+A.J. Green Complete
+Kyle Kuzma Complete
+Myles Turner Complete
+Gary Trent Complete
+Jericho Sims Complete
+Gary Harris Complete
+Kevin Porter Complete
+Andre Jackson Complete
+Giannis Antetokounmpo Complete
+Pete Nance Complete
+Thanasis Antetokounmpo Complete
+Cam Thomas Complete
+Ousmane Dieng Complete
+Taurean Prince Complete
+Cormac Ryan Complete
+Taking a long break...
+Alex Antetokounmpo Complete
+Kyle Filipowski Complete
+Brice Sensabaugh Complete
+Ace Bailey Complete
+Isaiah Collier Complete
+Cody Williams Complete
+Keyonte George Complete
+Svi Mykhailiuk Complete
+Lauri Markkanen Complete
+Jusuf Nurkić Complete
+Kevin Love Complete
+Elijah Harkless Complete
+Oscar Tshiebwe Complete
+John Konchar Complete
+Blake Hinson Complete
+Walker Kessler Complete
+Andersson Garcia Complete
+Bez Mbeng Complete
+Jaren Jackson Complete
+Javonte Green Complete
+Duncan Robinson Complete
+Taking a long break...
+Ron Holland Complete
+Cade Cunningham Complete
+Ausar Thompson Complete
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 44   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+Jalen Duren Complete
+Daniss Jenkins Complete
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   53 2026-02-11 DET @ TOR W, 113-95 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   54 2026-02-19 DET @ NYK W, 126-111 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   56 2026-02-23 DET   SAS L, 103-114 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   57 2026-02-25 DET   OKC W, 124-116 Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   58 2026-02-27 DET   CLE W, 122-119 (OT) Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+ 48   59 2026-03-01 DET @ ORL W, 106-92 Suspended 
+Isaiah Stewart Complete
+Tobias Harris Complete
+Paul Reed Complete
+Caris LeVert Complete
+Marcus Sasser Complete
+Chaz Lanier Complete
+Kevin Huerter Complete
+Bobi Klintman Complete
+Tolu Smith Complete
+Wendell Moore Complete
+Isaac Jones Complete
+Bub Carrington Complete
+Will Riley Complete
+Justin Champagnie Complete
+Tre Johnson Complete
+Kyshawn George Complete
+Taking a long break...
+Bilal Coulibaly Complete
+Alex Sarr Complete
+Tristan Vukcevic Complete
+Anthony Gill Complete
+Jamir Watkins Complete
+Sharife Cooper Complete
+Cam Whitmore Complete
+Jaden Hardy Complete
+Trae Young Complete
+Julian Reese Complete
+D'Angelo Russell Complete
+Anthony Davis Complete
+Player statistics have been updated for 2026-03-19
+[master 59601f5] Daily stats update: 2026-03-20
+ 168 files changed, 397 insertions(+), 268 deletions(-)
+To https://github.com/Evan-Johnson/NBA_Statistics.git
+   4e7f940..59601f5  master -> master
+Done.

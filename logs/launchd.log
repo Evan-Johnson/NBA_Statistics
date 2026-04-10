@@ -1,1 +1,2 @@
 /bin/bash: /Users/evanjohnson/Documents/personal/NBA_Statistics/run_daily.sh: Operation not permitted
+You have not agreed to the Xcode license agreements. Please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode and Apple SDKs license.

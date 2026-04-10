@@ -1,0 +1,524 @@
+=== NBA Daily Run: Fri Apr 10 09:07:56 MDT 2026 ===
+10
+Yesterday was: 2026-04-09
+https://www.basketball-reference.com/boxscores/?month=4&day=9&year=2026
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /boxscores/?month=4&day=9&year=2026 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x109311d30>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/boxscores/?month=4&day=9&year=2026
+  warnings.warn("Invalid URL: " + url)
+Daily teams were received and saved.
+IND
+BRK
+LAL
+GSW
+=== NBA Daily Run: Fri Apr 10 09:13:07 MDT 2026 ===
+10
+Yesterday was: 2026-04-09
+https://www.basketball-reference.com/boxscores/?month=4&day=9&year=2026
+Daily teams were received and saved.
+IND
+PHI
+BRK
+HOU
+LAL
+BOS
+GSW
+NYK
+PHI
+MIA
+HOU
+TOR
+BOS
+CHI
+NYK
+WAS
+MIA
+Player reference was updated.
+Beginning player scraping...
+Jay Huff Complete
+TOR
+Jarace Walker Complete
+CHI
+Ben Sheppard Complete
+WAS
+Pascal Siakam Complete
+Player reference was updated.
+Beginning player scraping...
+Jay Huff Complete
+Andrew Nembhard Complete
+Jarace Walker Complete
+T.J. McConnell Complete
+Ben Sheppard Complete
+Quenton Jackson Complete
+Pascal Siakam Complete
+Aaron Nesmith Complete
+Andrew Nembhard Complete
+Micah Potter Complete
+T.J. McConnell Complete
+Taelon Peter Complete
+Quenton Jackson Complete
+Johnny Furphy Complete
+Aaron Nesmith Complete
+Kam Jones Complete
+Micah Potter Complete
+Ethan Thompson Complete
+Taelon Peter Complete
+Johnny Furphy Complete
+Kobe Brown Complete
+Kam Jones Complete
+Obi Toppin Complete
+Ethan Thompson Complete
+Jalen Slawson Complete
+Kobe Brown Complete
+Ivica Zubac Complete
+Obi Toppin Complete
+Tyrese Haliburton Complete
+Jalen Slawson Complete
+Nic Claxton Complete
+Ivica Zubac Complete
+Noah Clowney Complete
+Tyrese Haliburton Complete
+Terance Mann Complete
+Taking a long break...
+Nic Claxton Complete
+Noah Clowney Complete
+Terance Mann Complete
+Taking a long break...
+Day'Ron Sharpe Complete
+Drake Powell Complete
+Danny Wolf Complete
+Day'Ron Sharpe Complete
+Ziaire Williams Complete
+Drake Powell Complete
+Nolan Traoré Complete
+Danny Wolf Complete
+Michael Porter Complete
+Ziaire Williams Complete
+Egor Dёmin Complete
+Nolan Traoré Complete
+Jalen Wilson Complete
+Michael Porter Complete
+Ben Saraf Complete
+Egor Dёmin Complete
+Jalen Wilson Complete
+E.J. Liddell Complete
+Ben Saraf Complete
+Tyson Etienne Complete
+E.J. Liddell Complete
+Ochai Agbaji Complete
+Tyson Etienne Complete
+Josh Minott Complete
+Ochai Agbaji Complete
+Chaney Johnson Complete
+Josh Minott Complete
+Malachi Smith Complete
+Chaney Johnson Complete
+Tre Scott Complete
+Malachi Smith Complete
+Jake LaRavia Complete
+Tre Scott Complete
+Deandre Ayton Complete
+Jake LaRavia Complete
+Rui Hachimura Complete
+Deandre Ayton Complete
+Jaxson Hayes Complete
+Rui Hachimura Complete
+Luka Dončić Complete
+Taking a long break...
+Jaxson Hayes Complete
+Luka Dončić Complete
+Taking a long break...
+Jarred Vanderbilt Complete
+Marcus Smart Complete
+Jarred Vanderbilt Complete
+LeBron James Complete
+Marcus Smart Complete
+Dalton Knecht Complete
+LeBron James Complete
+Austin Reaves Complete
+Dalton Knecht Complete
+Maxi Kleber Complete
+Austin Reaves Complete
+Bronny James Complete
+Maxi Kleber Complete
+Luke Kennard Complete
+Bronny James Complete
+Nick Smith Complete
+Luke Kennard Complete
+Drew Timme Complete
+Nick Smith Complete
+Adou Thiero Complete
+Drew Timme Complete
+Kobe Bufkin Complete
+Adou Thiero Complete
+Chris Mañon Complete
+Kobe Bufkin Complete
+Brandin Podziemski Complete
+Chris Mañon Complete
+Gary Payton Complete
+Brandin Podziemski Complete
+Draymond Green Complete
+Gary Payton Complete
+Quinten Post Complete
+Draymond Green Complete
+Will Richard Complete
+Quinten Post Complete
+Gui Santos Complete
+Will Richard Complete
+Pat Spencer Complete
+Gui Santos Complete
+Moses Moody Complete
+Taking a long break...
+Pat Spencer Complete
+Moses Moody Complete
+Taking a long break...
+De'Anthony Melton Complete
+Al Horford Complete
+De'Anthony Melton Complete
+Stephen Curry Complete
+Al Horford Complete
+Jimmy Butler Complete
+Stephen Curry Complete
+Malevy Leons Complete
+Jimmy Butler Complete
+LJ Cryer Complete
+Malevy Leons Complete
+Kristaps Porziņģis Complete
+LJ Cryer Complete
+Nate Williams Complete
+Kristaps Porziņģis Complete
+Seth Curry Complete
+Nate Williams Complete
+Charles Bassey Complete
+Seth Curry Complete
+VJ Edgecombe Complete
+Charles Bassey Complete
+Quentin Grimes Complete
+VJ Edgecombe Complete
+Dominick Barlow Complete
+Quentin Grimes Complete
+Adem Bona Complete
+Dominick Barlow Complete
+Tyrese Maxey Complete
+Adem Bona Complete
+Jabari Walker Complete
+Tyrese Maxey Complete
+Justin Edwards Complete
+Jabari Walker Complete
+Andre Drummond Complete
+Justin Edwards Complete
+Trendon Watford Complete
+Andre Drummond Complete
+Kelly Oubre Complete
+Trendon Watford Complete
+Joel Embiid Complete
+Taking a long break...
+Kelly Oubre Complete
+Joel Embiid Complete
+Taking a long break...
+Paul George Complete
+Cameron Payne Complete
+Paul George Complete
+Cameron Payne Complete
+MarJon Beauchamp Complete
+MarJon Beauchamp Complete
+Dalen Terry Complete
+Dalen Terry Complete
+Kyle Lowry Complete
+Kyle Lowry Complete
+Johni Broome Complete
+Johni Broome Complete
+Tyrese Martin Complete
+Tyrese Martin Complete
+Reed Sheppard Complete
+Reed Sheppard Complete
+Amen Thompson Complete
+Amen Thompson Complete
+Kevin Durant Complete
+Kevin Durant Complete
+Jabari Smith Complete
+Jabari Smith Complete
+Josh Okogie Complete
+Josh Okogie Complete
+Clint Capela Complete
+Clint Capela Complete
+Alperen Şengün Complete
+Alperen Şengün Complete
+Tari Eason Complete
+Tari Eason Complete
+Aaron Holiday Complete
+Aaron Holiday Complete
+Jae'Sean Tate Complete
+Jae'Sean Tate Complete
+Dorian Finney-Smith Complete
+Dorian Finney-Smith Complete
+Steven Adams Complete
+Steven Adams Complete
+Jeff Green Complete
+Jeff Green Complete
+JD Davison Complete
+Taking a long break...
+JD Davison Complete
+Taking a long break...
+Isaiah Crawford Complete
+Isaiah Crawford Complete
+Fred VanVleet Complete
+Fred VanVleet Complete
+Tristen Newton Complete
+Tristen Newton Complete
+Payton Pritchard Complete
+Payton Pritchard Complete
+Sam Hauser Complete
+Sam Hauser Complete
+Derrick White Complete
+Derrick White Complete
+Neemias Queta Complete
+Neemias Queta Complete
+Baylor Scheierman Complete
+Baylor Scheierman Complete
+Hugo González Complete
+Hugo González Complete
+Jaylen Brown Complete
+Jaylen Brown Complete
+Luka Garza Complete
+Luka Garza Complete
+Jordan Walsh Complete
+Jordan Walsh Complete
+Ron Harper Complete
+Ron Harper Complete
+Amari Williams Complete
+Amari Williams Complete
+Jayson Tatum Complete
+Jayson Tatum Complete
+Nikola Vučević Complete
+Nikola Vučević Complete
+Max Shulga Complete
+Max Shulga Complete
+John Tonje Complete
+John Tonje Complete
+Mikal Bridges Complete
+Mikal Bridges Complete
+Karl-Anthony Towns Complete
+Karl-Anthony Towns Complete
+Jalen Brunson Complete
+Taking a long break...
+Jalen Brunson Complete
+Taking a long break...
+Jordan Clarkson Complete
+Jordan Clarkson Complete
+Mohamed Diawara Complete
+Mohamed Diawara Complete
+OG Anunoby Complete
+OG Anunoby Complete
+Josh Hart Complete
+Josh Hart Complete
+Tyler Kolek Complete
+Tyler Kolek Complete
+Mitchell Robinson Complete
+Mitchell Robinson Complete
+Ariel Hukporti Complete
+Ariel Hukporti Complete
+Landry Shamet Complete
+Landry Shamet Complete
+Miles McBride Complete
+Miles McBride Complete
+Pacôme Dadiet Complete
+Pacôme Dadiet Complete
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+Jose Alvarado Complete
+Jose Alvarado Complete
+Kevin McCullar Complete
+Kevin McCullar Complete
+Jeremy Sochan Complete
+Jeremy Sochan Complete
+Trey Jemison Complete
+Trey Jemison Complete
+Dillon Jones Complete
+Dillon Jones Complete
+Kel'el Ware Complete
+Kel'el Ware Complete
+Jaime Jaquez Complete
+Jaime Jaquez Complete
+Bam Adebayo Complete
+Bam Adebayo Complete
+Dru Smith Complete
+Dru Smith Complete
+Pelle Larsson Complete
+Pelle Larsson Complete
+Davion Mitchell Complete
+Taking a long break...
+Davion Mitchell Complete
+Taking a long break...
+Simone Fontecchio Complete
+Simone Fontecchio Complete
+Andrew Wiggins Complete
+Andrew Wiggins Complete
+Norman Powell Complete
+Norman Powell Complete
+Kasparas Jakučionis Complete
+Kasparas Jakučionis Complete
+Nikola Jović Complete
+Nikola Jović Complete
+Myron Gardner Complete
+Myron Gardner Complete
+Tyler Herro Complete
+Tyler Herro Complete
+Keshad Johnson Complete
+Keshad Johnson Complete
+Jahmir Young Complete
+Jahmir Young Complete
+Vladislav Goldin Complete
+Vladislav Goldin Complete
+Trevor Keels Complete
+Trevor Keels Complete
+Terry Rozier Complete
+Terry Rozier Complete
+Jamal Shead Complete
+Jamal Shead Complete
+Scottie Barnes Complete
+Scottie Barnes Complete
+Sandro Mamukelashvili Complete
+Sandro Mamukelashvili Complete
+Brandon Ingram Complete
+Brandon Ingram Complete
+Gradey Dick Complete
+Gradey Dick Complete
+Ja'Kobe Walter Complete
+Ja'Kobe Walter Complete
+Immanuel Quickley Complete
+Immanuel Quickley Complete
+Jamison Battle Complete
+Jamison Battle Complete
+RJ Barrett Complete
+Taking a long break...
+RJ Barrett Complete
+Taking a long break...
+Collin Murray-Boyles Complete
+Collin Murray-Boyles Complete
+Jakob Poeltl Complete
+Jakob Poeltl Complete
+Jonathan Mogbo Complete
+Jonathan Mogbo Complete
+A.J. Lawson Complete
+A.J. Lawson Complete
+Alijah Martin Complete
+Alijah Martin Complete
+Garrett Temple Complete
+Garrett Temple Complete
+Trayce Jackson-Davis Complete
+Trayce Jackson-Davis Complete
+Chucky Hepburn Complete
+Chucky Hepburn Complete
+Tyreke Key Complete
+Tyreke Key Complete
+Matas Buzelis Complete
+Matas Buzelis Complete
+Patrick Williams Complete
+Patrick Williams Complete
+Tre Jones Complete
+Tre Jones Complete
+Isaac Okoro Complete
+Isaac Okoro Complete
+Josh Giddey Complete
+Josh Giddey Complete
+Jalen Smith Complete
+Jalen Smith Complete
+Lachlan Olbrich Complete
+Lachlan Olbrich Complete
+Rob Dillingham Complete
+Rob Dillingham Complete
+Guerschon Yabusele Complete
+Guerschon Yabusele Complete
+Leonard Miller Complete
+Leonard Miller Complete
+Collin Sexton Complete
+Collin Sexton Complete
+Nick Richards Complete
+Taking a long break...
+Nick Richards Complete
+Taking a long break...
+Yuki Kawamura Complete
+Yuki Kawamura Complete
+Zach Collins Complete
+Zach Collins Complete
+Anfernee Simons Complete
+Anfernee Simons Complete
+Mac McClung Complete
+Mac McClung Complete
+Noa Essengue Complete
+Noa Essengue Complete
+Bub Carrington Complete
+Bub Carrington Complete
+Will Riley Complete
+Will Riley Complete
+Justin Champagnie Complete
+Justin Champagnie Complete
+Tre Johnson Complete
+Tre Johnson Complete
+Bilal Coulibaly Complete
+Bilal Coulibaly Complete
+Anthony Gill Complete
+Anthony Gill Complete
+Tristan Vukcevic Complete
+Tristan Vukcevic Complete
+Alex Sarr Complete
+Alex Sarr Complete
+Kyshawn George Complete
+Kyshawn George Complete
+Jamir Watkins Complete
+Jamir Watkins Complete
+Sharife Cooper Complete
+Sharife Cooper Complete
+Jaden Hardy Complete
+Jaden Hardy Complete
+Cam Whitmore Complete
+Cam Whitmore Complete
+Leaky Black Complete
+Leaky Black Complete
+Julian Reese Complete
+Julian Reese Complete
+Trae Young Complete
+Taking a long break...
+Trae Young Complete
+Taking a long break...
+D'Angelo Russell Complete
+D'Angelo Russell Complete
+Anthony Davis Complete
+Anthony Davis Complete
+Player statistics have been updated for 2026-04-09
+You have not agreed to the Xcode license agreements. Please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode and Apple SDKs license.
+Player statistics have been updated for 2026-04-09
+You have not agreed to the Xcode license agreements. Please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode and Apple SDKs license.
+You have not agreed to the Xcode license agreements. Please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode and Apple SDKs license.
+You have not agreed to the Xcode license agreements. Please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode and Apple SDKs license.
+Done.

@@ -1,0 +1,227 @@
+=== NBA Daily Run: Mon Mar 23 09:08:02 MDT 2026 ===
+23
+Yesterday was: 2026-03-22
+https://www.basketball-reference.com/boxscores/?month=3&day=22&year=2026
+Request failed (ConnectionError: HTTPSConnectionPool(host='www.basketball-reference.com', port=443): Max retries exceeded with url: /boxscores/?month=3&day=22&year=2026 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1086d4d70>: Failed to resolve 'www.basketball-reference.com' ([Errno 8] nodename nor servname provided, or not known)"))) — retrying with fresh session in 60s...
+/Users/evanjohnson/Documents/personal/NBA_Statistics/NBA_Statistics/Scraper_Master.py:25: UserWarning: Invalid URL: https://www.basketball-reference.com/boxscores/?month=3&day=22&year=2026
+  warnings.warn("Invalid URL: " + url)
+Daily teams were received and saved.
+MIN
+BOS
+POR
+DEN
+WAS
+NYK
+TOR
+PHO
+BRK
+SAC
+Player reference was updated.
+Beginning player scraping...
+Julius Randle Complete
+Donte DiVincenzo Complete
+Jaden McDaniels Complete
+Naz Reid Complete
+Rudy Gobert Complete
+Bones Hyland Complete
+Jaylen Clark Complete
+Anthony Edwards Complete
+Mike Conley Complete
+Terrence Shannon Complete
+Joan Beringer Complete
+Joe Ingles Complete
+Ayo Dosunmu Complete
+Kyle Anderson Complete
+Julian Phillips Complete
+Rocco Zikarsky Complete
+Zyon Pullin Complete
+Enrique Freeman Complete
+Payton Pritchard Complete
+Derrick White Complete
+Sam Hauser Complete
+Taking a long break...
+Neemias Queta Complete
+Baylor Scheierman Complete
+Hugo González Complete
+Jaylen Brown Complete
+Luka Garza Complete
+Jordan Walsh Complete
+Ron Harper Complete
+Amari Williams Complete
+Nikola Vučević Complete
+Jayson Tatum Complete
+Max Shulga Complete
+John Tonje Complete
+Charles Bassey Complete
+Toumani Camara Complete
+Donovan Clingan Complete
+Sidy Cissoko Complete
+Deni Avdija Complete
+Jerami Grant Complete
+Robert Williams Complete
+Shaedon Sharpe Complete
+Kris Murray Complete
+Taking a long break...
+Caleb Love Complete
+Jrue Holiday Complete
+Yang Hansen Complete
+Blake Wesley Complete
+Scoot Henderson Complete
+Matisse Thybulle Complete
+Vít Krejčí Complete
+Jayson Kent Complete
+Damian Lillard Complete
+Chris Youngblood Complete
+Bruce Brown Complete
+Tim Hardaway Complete
+Jamal Murray Complete
+Spencer Jones Complete
+Jonas Valančiūnas Complete
+Nikola Jokić Complete
+Peyton Watson Complete
+Zeke Nnaji Complete
+Julian Strawther Complete
+Cameron Johnson Complete
+Jalen Pickett Complete
+Taking a long break...
+Christian Braun Complete
+Aaron Gordon Complete
+DaRon Holmes Complete
+Tyus Jones Complete
+Curtis Jones Complete
+KJ Simpson Complete
+David Roddy Complete
+Bub Carrington Complete
+Will Riley Complete
+Justin Champagnie Complete
+Tre Johnson Complete
+Bilal Coulibaly Complete
+Kyshawn George Complete
+Alex Sarr Complete
+Tristan Vukcevic Complete
+Anthony Gill Complete
+Jamir Watkins Complete
+Sharife Cooper Complete
+Cam Whitmore Complete
+Jaden Hardy Complete
+Trae Young Complete
+Taking a long break...
+Julian Reese Complete
+D'Angelo Russell Complete
+Anthony Davis Complete
+Mikal Bridges Complete
+Karl-Anthony Towns Complete
+Jalen Brunson Complete
+Jordan Clarkson Complete
+Mohamed Diawara Complete
+OG Anunoby Complete
+Tyler Kolek Complete
+Josh Hart Complete
+Mitchell Robinson Complete
+Ariel Hukporti Complete
+Landry Shamet Complete
+Miles McBride Complete
+Pacôme Dadiet Complete
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+ 32   35 2025-12-31 NOP @ CHI L, 118-134 Suspended 
+Jose Alvarado Complete
+Kevin McCullar Complete
+Jeremy Sochan Complete
+Trey Jemison Complete
+Dillon Jones Complete
+Taking a long break...
+Jamal Shead Complete
+Brandon Ingram Complete
+Scottie Barnes Complete
+Sandro Mamukelashvili Complete
+Immanuel Quickley Complete
+Gradey Dick Complete
+Ja'Kobe Walter Complete
+Jamison Battle Complete
+Collin Murray-Boyles Complete
+RJ Barrett Complete
+Jakob Poeltl Complete
+Jonathan Mogbo Complete
+Garrett Temple Complete
+Alijah Martin Complete
+A.J. Lawson Complete
+Trayce Jackson-Davis Complete
+Chucky Hepburn Complete
+Oso Ighodaro Complete
+Collin Gillespie Complete
+Royce O'Neale Complete
+Ryan Dunn Complete
+Taking a long break...
+Jordan Goodwin Complete
+Devin Booker Complete
+Mark Williams Complete
+Dillon Brooks Complete
+Rasheer Fleming Complete
+Grayson Allen Complete
+Jamaree Bouyea Complete
+Khaman Maluach Complete
+Isaiah Livers Complete
+Jalen Green Complete
+Amir Coffey Complete
+Haywood Highsmith Complete
+Koby Brea Complete
+CJ Huntley Complete
+Nic Claxton Complete
+Noah Clowney Complete
+Day'Ron Sharpe Complete
+Terance Mann Complete
+Danny Wolf Complete
+Drake Powell Complete
+Michael Porter Complete
+Taking a long break...
+Egor Dёmin Complete
+Ziaire Williams Complete
+Nolan Traoré Complete
+Jalen Wilson Complete
+Ben Saraf Complete
+E.J. Liddell Complete
+Ochai Agbaji Complete
+Tyson Etienne Complete
+Josh Minott Complete
+Chaney Johnson Complete
+Malachi Smith Complete
+DeMar DeRozan Complete
+Nique Clifford Complete
+Russell Westbrook Complete
+Maxime Raynaud Complete
+Precious Achiuwa Complete
+Malik Monk Complete
+Drew Eubanks Complete
+Zach LaVine Complete
+Dylan Cardwell Complete
+Devin Carter Complete
+Taking a long break...
+Keegan Murray Complete
+Daeqwon Plowden Complete
+Doug McDermott Complete
+Domantas Sabonis Complete
+Killian Hayes Complete
+Patrick Baldwin Complete
+Isaiah Stevens Complete
+De'Andre Hunter Complete
+Player statistics have been updated for 2026-03-22
+[master 22fe1e6] Daily stats update: 2026-03-23
+ 126 files changed, 406 insertions(+), 285 deletions(-)
+ create mode 100644 NBA_Statistics/2026_player_data/Kyle Anderson.csv
+To https://github.com/Evan-Johnson/NBA_Statistics.git
+   59601f5..22fe1e6  master -> master
+Done.
