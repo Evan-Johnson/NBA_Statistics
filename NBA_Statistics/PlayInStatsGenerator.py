@@ -116,7 +116,7 @@ def parse_box_score(url, ref_by_path):
             margin = ""
 
         for row in table.find_all("tr"):
-            player_td = row.find("td", {"data-stat": "player"})
+            player_td = row.find(["th", "td"], {"data-stat": "player"})
             if player_td is None:
                 continue
 
