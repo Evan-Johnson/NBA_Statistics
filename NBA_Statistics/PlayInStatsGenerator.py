@@ -2,151 +2,197 @@
 #HEADER
 
 import json
+import re
 import time
+from datetime import date, timedelta
 
 import Scraper_Master
 
 import csv
 from bs4 import BeautifulSoup, Comment
 
-# Play-in tournament start date — only rows on or after this date are kept
-PLAY_IN_START = "2026-04-14"
+# First day of the play-in tournament
+PLAY_IN_START = date(2026, 4, 14)
 
-def Update_Player_Statistics(year):
 
-    player_stats = {}
-    player_reference = {}
+def get_play_in_urls():
+    """Scrape the basketball-reference boxscores listing for each play-in date
+    and return a list of full box score URLs."""
+    urls = []
+    yesterday = date.today() - timedelta(days=1)
+    current = PLAY_IN_START
 
-    with open('NBA_Statistics/DailyPlayerReference.json', 'r', encoding='utf8') as Player_Reference:
-        player_reference = json.load(Player_Reference)
+    while current <= yesterday:
+        listing_url = (
+            f"https://www.basketball-reference.com/boxscores/"
+            f"?month={current.month}&day={current.day}&year={current.year}"
+        )
+        print(f"Fetching game list for {current}...")
+        soup = Scraper_Master.Scrape_From_Source(listing_url)
+        if soup == -1:
+            print(f"  Failed to fetch listing for {current}, skipping")
+        else:
+            for gamelink_td in soup.find_all("td", class_="gamelink"):
+                a = gamelink_td.find("a")
+                if a and a.get("href"):
+                    urls.append("https://www.basketball-reference.com" + a["href"])
 
-    player_limit = 0
-    consecutive_failures = 0
-    print("Beginning play-in player scraping...")
+        current += timedelta(days=1)
+        time.sleep(5)
 
-    for key in player_reference:
-        url = "https://www.basketball-reference.com" + player_reference[key] + "/gamelog/" + str(year) + "/P/"
+    print(f"Found {len(urls)} play-in game(s): {urls}")
+    return urls
 
-        columns = ["Date", "Team", "Opponent", "Home(0)/Away(1)", "Margin", "Minutes", "FGA", "FGM", \
-               "3PA", "3PM", "FT", "FTA","ORB","TRB", "Assists", "Steals", "Blocks", "Turnovers", "Fouls", "Points", "p/m"]
+columns = ["Date", "Team", "Opponent", "Home(0)/Away(1)", "Margin", "Minutes", "FGA", "FGM", \
+           "3PA", "3PM", "FT", "FTA", "ORB", "TRB", "Assists", "Steals", "Blocks", "Turnovers", "Fouls", "Points", "p/m"]
 
-        soup_columns = ["date", "team_name_abbr", "opp_name_abbr", "game_location", "game_result", "mp", "fga", "fg", \
-                    "fg3a", "fg3", "ft", "fta","orb", "trb", "ast", "stl", "blk", "tov", "pf", "pts", "plus_minus"]
+stats_data_stats = ["mp", "fga", "fg", "fg3a", "fg3", "ft", "fta", "orb", "trb", "ast", "stl", "blk", "tov", "pf", "pts", "plus_minus"]
 
-        player_soup = Scraper_Master.Scrape_From_Source(url)
 
-        player_name = key
+def find_team_tables(soup):
+    tables = soup.find_all("table", id=re.compile(r"^box-.+-game-basic$"))
+    if tables:
+        return tables
 
-        player_data_all = []
+    # Tables are often inside HTML comments on basketball-reference
+    for comment in soup.find_all(string=lambda t: isinstance(t, Comment)):
+        if "game-basic" in comment:
+            comment_soup = BeautifulSoup(comment, "html.parser")
+            tables.extend(comment_soup.find_all("table", id=re.compile(r"^box-.+-game-basic$")))
 
+    return tables
+
+
+def get_final_scores(soup):
+    """Return (away_score, home_score) from the scorebox, or (None, None) on failure."""
+    scorebox = soup.find("div", class_="scorebox")
+    if not scorebox:
+        return None, None
+    scores = []
+    for score_div in scorebox.find_all("div", class_="score"):
         try:
-            pgl_div = player_soup.find(name="div", attrs={"id": "all_player_game_log_playoffs"})
-            if pgl_div is None:
-                # Table may be inside an HTML comment — parse comments to find it
-                for comment in player_soup.find_all(string=lambda text: isinstance(text, Comment)):
-                    if "all_player_game_log_playoffs" in comment:
-                        pgl_div = BeautifulSoup(comment, "html.parser").find(name="div", attrs={"id": "all_player_game_log_playoffs"})
-                        break
-            player_data_rows = pgl_div.findAll(name="tr")
-        except AttributeError as e:
-            print(player_name + " has no games found")
-            consecutive_failures += 1
-            if consecutive_failures >= 5:
-                print(f"Rate limit detected ({consecutive_failures} consecutive failures) — taking a 10-minute break...")
-                Scraper_Master.reset_scraper()
-                time.sleep(600)
-                consecutive_failures = 0
-            continue
+            scores.append(int(score_div.text.strip()))
+        except ValueError:
+            pass
+    if len(scores) == 2:
+        return scores[0], scores[1]
+    return None, None
 
-        consecutive_failures = 0
 
-        for row in player_data_rows:
+def parse_box_score(url, ref_by_path):
+    """Scrape one box score URL. Returns {player_name: game_row_dict}."""
 
-            date_td = row.find(name="td", attrs={"data-stat": "date"})
-            if date_td is None or date_td.text.strip() == "":
+    # Parse date and home team from URL filename e.g. "202604150LAC"
+    filename = url.split("/")[-1].replace(".html", "")
+    date_str = f"{filename[:4]}-{filename[4:6]}-{filename[6:8]}"
+    home_team = filename[-3:]
+
+    soup = Scraper_Master.Scrape_From_Source(url)
+    if soup == -1:
+        print(f"Failed to fetch {url}")
+        return {}
+
+    team_tables = find_team_tables(soup)
+    if len(team_tables) < 2:
+        print(f"Could not find both team tables in {url}")
+        return {}
+
+    all_teams = [t["id"].split("-")[1] for t in team_tables]
+    away_score, home_score = get_final_scores(soup)
+
+    results = {}
+
+    for table in team_tables:
+        team_abbr = table["id"].split("-")[1]
+        opp_abbr = [t for t in all_teams if t != team_abbr][0]
+        is_away = 1 if team_abbr != home_team else 0
+
+        if away_score is not None:
+            if team_abbr == home_team:
+                margin = home_score - away_score
+            else:
+                margin = away_score - home_score
+        else:
+            margin = ""
+
+        for row in table.find_all("tr"):
+            player_td = row.find("td", {"data-stat": "player"})
+            if player_td is None:
                 continue
 
-            # Only keep play-in games
-            if date_td.text.strip() < PLAY_IN_START:
+            if any(s in row.text for s in ["Did Not Play", "Inactive", "Player Suspended", "Did Not Dress", "Not With Team"]):
                 continue
 
-            player_data_individual = {}
+            player_link = player_td.find("a")
+            if player_link is None:
+                continue
 
-            index = 0
+            href = player_link["href"].replace(".html", "")
+            player_name = ref_by_path.get(href)
+            if player_name is None:
+                print(f"  Player not in reference: {href} ({player_link.text})")
+                continue
 
-            for column in soup_columns:
+            game_row = {
+                "Date": date_str,
+                "Team": team_abbr,
+                "Opponent": opp_abbr,
+                "Home(0)/Away(1)": is_away,
+                "Margin": margin,
+            }
 
-                if("Did Not Play" in row.text or "Inactive" in row.text or "Player Suspended" in row.text or "Did Not Dress" in row.text or "Not With Team" in row.text):
-                    break
-                try:
-                    player_data_cell_text = row.find(name="td", attrs = {"data-stat" : column}).text
-                except:
-                    print(row.text)
+            for data_stat, col_name in zip(stats_data_stats, columns[5:]):
+                td = row.find("td", {"data-stat": data_stat})
+                val = td.text.strip() if td else ""
 
-                if(column == "game_location"):
-                    if(player_data_cell_text.strip() == ""):
-                        player_data_cell_text = 0
-                    else:
-                        player_data_cell_text = 1
+                if data_stat == "plus_minus":
+                    val = val.replace("(", "").replace("+", "").replace(" ", "")
+                elif data_stat == "mp" and ":" in val:
+                    mins = val.split(":")
+                    val = mins[0] + str(round(int(mins[1]) / 60, 2))[1:]
 
-                elif(column == "game_result"):
-                    try:
-                        parts = player_data_cell_text.split(", ")
-                        scores = parts[1].split("-")
-                        player_data_cell_text = str(int(scores[0]) - int(scores[1]))
-                    except:
-                        player_data_cell_text = ""
+                game_row[col_name] = val
 
-                elif(column == "plus_minus"):
-                    player_data_cell_text = player_data_cell_text.replace("(", "").replace("+", "").replace(" ", "")
+            results[player_name] = game_row
 
-                elif(column == "mp"):
-                    if ':' in player_data_cell_text:
-                        mins = player_data_cell_text.split(':')
-                        mins[1] = str(round((int(mins[1]) / 60), 2))
-                        player_data_cell_text = mins[0] + mins[1][1:]
+    return results
 
-                player_data_individual[columns[index]] = player_data_cell_text
-                index += 1
 
-            if(len(player_data_individual) > 0):
-                player_data_all.append(player_data_individual)
+def Update_Player_Statistics():
+    with open('NBA_Statistics/DailyPlayerReference.json', 'r', encoding='utf8') as f:
+        player_reference = json.load(f)
 
-        if len(player_data_all) == 0:
-            print(player_name + " has no play-in games, skipping")
-            player_limit += 1
-            if (player_limit > 20):
-                print("Taking a long break...")
-                time.sleep(90)
-                player_limit = 0
-            time.sleep(12)
-            continue
+    # Reverse lookup: url path -> player name
+    ref_by_path = {v: k for k, v in player_reference.items()}
 
-        player_stats[player_name] = player_data_all
+    all_player_stats = {}
 
-        write_csv(player_name, columns, player_stats)
+    play_in_urls = get_play_in_urls()
 
-        print(player_name + " Complete")
-        player_limit += 1
-        if (player_limit > 20):
-            print("Taking a long break...")
-            time.sleep(90)
-            player_limit = 0
-
+    print("Beginning play-in box score scraping...")
+    for url in play_in_urls:
+        print(f"Scraping {url}...")
+        game_data = parse_box_score(url, ref_by_path)
+        for player_name, row in game_data.items():
+            if player_name not in all_player_stats:
+                all_player_stats[player_name] = []
+            all_player_stats[player_name].append(row)
         time.sleep(12)
 
+    for player_name, rows in all_player_stats.items():
+        write_csv(player_name, rows)
+        print(f"{player_name} Complete")
 
-def write_csv(name, columns, player_stats):
-    with open('NBA_Statistics/2026_play_in/'+ name + '.csv', 'w', newline='') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames = columns)
+    print(f"Play-in scraping complete. {len(all_player_stats)} players written.")
+
+
+def write_csv(name, rows):
+    with open(f'NBA_Statistics/2026_play_in/{name}.csv', 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=columns)
         writer.writeheader()
-
-        for games in player_stats[name]:
-            writer.writerow(games)
-
-        csvfile.close()
-
+        for row in rows:
+            writer.writerow(row)
 
 
 if __name__ == "__main__":
-    Update_Player_Statistics(2026)
+    Update_Player_Statistics()

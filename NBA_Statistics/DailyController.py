@@ -15,7 +15,7 @@ def Daily_Running():
     print("Player reference was updated.")
     #dsg.Update_Player_Statistics(2026)
     #print("Player statistics have been updated for " + str(date.today() - timedelta(days=days_before)))
-    pisg.Update_Player_Statistics(2026)
+    pisg.Update_Player_Statistics()
     print("Play-in statistics have been updated for " + str(date.today() - timedelta(days=days_before)))
 
     #update the allPlayer stat files from Data_Builder
