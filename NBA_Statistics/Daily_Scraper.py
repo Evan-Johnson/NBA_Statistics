@@ -44,4 +44,32 @@ def Get_Daily_Teams(days_before):
 
         csvfile.close()
 
+def Get_Teams_Date_Range(start_date):
+    """Collect unique teams from start_date through yesterday and write to DailyTeamReference."""
+    from datetime import date, timedelta
+
+    team_reference = set()
+    yesterday = date.today() - timedelta(days=1)
+    current = start_date
+
+    while current <= yesterday:
+        url = ("https://www.basketball-reference.com/boxscores/"
+               "?month=" + str(current.month) + "&day=" + str(current.day) + "&year=" + str(current.year))
+        print("Fetching teams for " + str(current) + "...")
+        team_soup = Scraper_Master.Scrape_From_Source(url)
+        if team_soup != -1:
+            team_rows = team_soup.find(name="div", attrs={"id": "content"}).findAll(
+                name="tr", class_=lambda x: x and any(c in x.split() for c in ["winner", "loser"]))
+            for row in team_rows:
+                team = str(row.contents[1].contents[0])
+                team = team[16:][:3]
+                team_reference.add(team)
+        current += timedelta(days=1)
+        time.sleep(5)
+
+    with open('NBA_Statistics/DailyTeamReference.csv', 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile, delimiter=',')
+        for team in sorted(team_reference):
+            writer.writerow([team])
+
 #Get_Daily_Teams(1)

@@ -9,7 +9,7 @@ days_before = 1
 
 #Hoping this can just be ran instead of running each file one by one
 def Daily_Running():
-    ds.Get_Daily_Teams(days_before)
+    ds.Get_Teams_Date_Range(pisg.PLAY_IN_START)
     print("Daily teams were received and saved.")
     dng.Update_Name_URLs()
     print("Player reference was updated.")
