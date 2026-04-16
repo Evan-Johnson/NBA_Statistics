@@ -1,6 +1,7 @@
 import Daily_Scraper as ds
 import DailyNameGenerator as dng
 import DailyStatsGenerator as dsg
+import PlayInStatsGenerator as pisg
 #import Data_Analysis.Data_Builder as db
 from datetime import date, timedelta
 
@@ -12,8 +13,10 @@ def Daily_Running():
     print("Daily teams were received and saved.")
     dng.Update_Name_URLs()
     print("Player reference was updated.")
-    dsg.Update_Player_Statistics(2026)
-    print("Player statistics have been updated for " + str(date.today() - timedelta(days=days_before)))
+    #dsg.Update_Player_Statistics(2026)
+    #print("Player statistics have been updated for " + str(date.today() - timedelta(days=days_before)))
+    pisg.Update_Player_Statistics(2026)
+    print("Play-in statistics have been updated for " + str(date.today() - timedelta(days=days_before)))
 
     #update the allPlayer stat files from Data_Builder
     #db.buildAllPlayerAverage()
