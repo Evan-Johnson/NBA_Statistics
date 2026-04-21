@@ -2,6 +2,7 @@ import Daily_Scraper as ds
 import DailyNameGenerator as dng
 import DailyStatsGenerator as dsg
 import PlayInStatsGenerator as pisg
+import PlayoffStatsGenerator as posg
 #import Data_Analysis.Data_Builder as db
 from datetime import date, timedelta
 
@@ -9,14 +10,14 @@ days_before = 1
 
 #Hoping this can just be ran instead of running each file one by one
 def Daily_Running():
-    ds.Get_Teams_Date_Range(pisg.PLAY_IN_START)
+    ds.Get_Teams_Date_Range(posg.PLAYOFFS_START)
     print("Daily teams were received and saved.")
     dng.Update_Name_URLs()
     print("Player reference was updated.")
     #dsg.Update_Player_Statistics(2026)
     #print("Player statistics have been updated for " + str(date.today() - timedelta(days=days_before)))
-    pisg.Update_Player_Statistics()
-    print("Play-in statistics have been updated for " + str(date.today() - timedelta(days=days_before)))
+    posg.Update_Player_Statistics()
+    print("Playoff statistics have been updated for " + str(date.today() - timedelta(days=days_before)))
 
     #update the allPlayer stat files from Data_Builder
     #db.buildAllPlayerAverage()

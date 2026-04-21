@@ -11,18 +11,18 @@ import Scraper_Master
 import csv
 from bs4 import BeautifulSoup, Comment
 
-# First day of the play-in tournament
+# First and last day of the play-in tournament
 PLAY_IN_START = date(2026, 4, 14)
+PLAY_IN_END = date(2026, 4, 17)
 
 
 def get_play_in_urls():
     """Scrape the basketball-reference boxscores listing for each play-in date
     and return a list of full box score URLs."""
     urls = []
-    yesterday = date.today() - timedelta(days=1)
     current = PLAY_IN_START
 
-    while current <= yesterday:
+    while current <= PLAY_IN_END:
         listing_url = (
             f"https://www.basketball-reference.com/boxscores/"
             f"?month={current.month}&day={current.day}&year={current.year}"
