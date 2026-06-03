@@ -2,6 +2,7 @@
 #HEADER
 
 import json
+import os
 import re
 import time
 from datetime import date, timedelta
@@ -14,13 +15,35 @@ from bs4 import BeautifulSoup, Comment
 # First day of the playoffs
 PLAYOFFS_START = date(2026, 4, 18)
 
+LAST_SCRAPE_FILE = 'NBA_Statistics/last_scrape.txt'
 
-def get_playoff_urls():
-    """Scrape the basketball-reference boxscores listing for each playoff date
-    and return a list of full box score URLs."""
+
+def get_last_scraped_date():
+    """Return the last date that was successfully scraped, or the day before
+    PLAYOFFS_START if no record exists."""
+    try:
+        with open(LAST_SCRAPE_FILE, 'r') as f:
+            return date.fromisoformat(f.read().strip())
+    except (FileNotFoundError, ValueError):
+        return PLAYOFFS_START - timedelta(days=1)
+
+
+def save_last_scraped_date(d):
+    """Persist the last successfully scraped date."""
+    with open(LAST_SCRAPE_FILE, 'w') as f:
+        f.write(d.isoformat())
+
+
+def get_playoff_urls(start_date):
+    """Scrape the basketball-reference boxscores listing from start_date
+    through yesterday and return a list of full box score URLs."""
     urls = []
     yesterday = date.today() - timedelta(days=1)
-    current = PLAYOFFS_START
+    current = max(start_date, PLAYOFFS_START)
+
+    if current > yesterday:
+        print("No new dates to scrape.")
+        return urls
 
     while current <= yesterday:
         listing_url = (
@@ -40,7 +63,7 @@ def get_playoff_urls():
         current += timedelta(days=1)
         time.sleep(5)
 
-    print(f"Found {len(urls)} playoff game(s): {urls}")
+    print(f"Found {len(urls)} new playoff game(s): {urls}")
     return urls
 
 columns = ["Date", "Team", "Opponent", "Home(0)/Away(1)", "Margin", "Minutes", "FGA", "FGM", \
@@ -159,6 +182,16 @@ def parse_box_score(url, ref_by_path):
 
 
 def Update_Player_Statistics():
+    last_scraped = get_last_scraped_date()
+    start_date = last_scraped + timedelta(days=1)
+    yesterday = date.today() - timedelta(days=1)
+
+    if start_date > yesterday:
+        print("Playoff stats already up to date.")
+        return
+
+    print(f"Scraping playoff stats from {start_date} to {yesterday}...")
+
     with open('NBA_Statistics/DailyPlayerReference.json', 'r', encoding='utf8') as f:
         player_reference = json.load(f)
 
@@ -167,7 +200,7 @@ def Update_Player_Statistics():
 
     all_player_stats = {}
 
-    playoff_urls = get_playoff_urls()
+    playoff_urls = get_playoff_urls(start_date)
 
     print("Beginning playoff box score scraping...")
     for url in playoff_urls:
@@ -183,13 +216,17 @@ def Update_Player_Statistics():
         write_csv(player_name, rows)
         print(f"{player_name} Complete")
 
+    save_last_scraped_date(yesterday)
     print(f"Playoff scraping complete. {len(all_player_stats)} players written.")
 
 
 def write_csv(name, rows):
-    with open(f'NBA_Statistics/2026_play_off/{name}.csv', 'w', newline='') as csvfile:
+    filepath = f'NBA_Statistics/2026_play_off/{name}.csv'
+    file_exists = os.path.exists(filepath)
+    with open(filepath, 'a', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=columns)
-        writer.writeheader()
+        if not file_exists:
+            writer.writeheader()
         for row in rows:
             writer.writerow(row)
 

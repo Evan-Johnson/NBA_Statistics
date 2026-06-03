@@ -45,10 +45,20 @@ def Get_Daily_Teams(days_before):
         csvfile.close()
 
 def Get_Teams_Date_Range(start_date):
-    """Collect unique teams from start_date through yesterday and write to DailyTeamReference."""
+    """Collect unique teams from start_date through yesterday, merge with any
+    previously discovered teams, and write the full set to DailyTeamReference."""
     from datetime import date, timedelta
 
+    # Seed with any teams already in the reference file
     team_reference = set()
+    try:
+        with open('NBA_Statistics/DailyTeamReference.csv', newline='') as existing:
+            for row in csv.reader(existing):
+                if row:
+                    team_reference.add(row[0])
+    except FileNotFoundError:
+        pass
+
     yesterday = date.today() - timedelta(days=1)
     current = start_date
 

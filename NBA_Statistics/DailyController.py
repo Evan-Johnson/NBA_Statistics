@@ -1,29 +1,26 @@
 import Daily_Scraper as ds
 import DailyNameGenerator as dng
-import DailyStatsGenerator as dsg
-import PlayInStatsGenerator as pisg
 import PlayoffStatsGenerator as posg
-#import Data_Analysis.Data_Builder as db
 from datetime import date, timedelta
 
-days_before = 1
-
-#Hoping this can just be ran instead of running each file one by one
 def Daily_Running():
-    ds.Get_Teams_Date_Range(posg.PLAYOFFS_START)
+    last_scraped = posg.get_last_scraped_date()
+    start_date = last_scraped + timedelta(days=1)
+    yesterday = date.today() - timedelta(days=1)
+
+    if start_date > yesterday:
+        print("Already up to date, nothing to do.")
+        exit(0)
+
+    print(f"Scraping from {start_date} to {yesterday}...")
+
+    ds.Get_Teams_Date_Range(start_date)
     print("Daily teams were received and saved.")
     dng.Update_Name_URLs()
     print("Player reference was updated.")
-    #dsg.Update_Player_Statistics(2026)
-    #print("Player statistics have been updated for " + str(date.today() - timedelta(days=days_before)))
     posg.Update_Player_Statistics()
-    print("Playoff statistics have been updated for " + str(date.today() - timedelta(days=days_before)))
+    print("Playoff statistics have been updated for " + str(yesterday))
 
-    #update the allPlayer stat files from Data_Builder
-    #db.buildAllPlayerAverage()
-    #db.buildAllPlayerTotal()
-
-    #wondering if this helps it not run twice...
-    exit()
+    exit(0)
 
 Daily_Running()
